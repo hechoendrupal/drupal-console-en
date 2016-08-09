@@ -1,0 +1,38 @@
+{
+    "name": "drupal/console-en",
+    "description": "Drupal Console English Language",
+    "keywords": ["Drupal", "Console", "Development", "Symfony"],
+    "homepage": "http://drupalconsole.com/",
+    "type": "drupal-console-language",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name":      "David Flores",
+            "email":     "dmousex@gmail.com",
+            "homepage":  "http://dmouse.net"
+        },
+        {
+            "name":      "Jesus Manuel Olivas",
+            "email":     "jesus.olivas@gmail.com",
+            "homepage":  "http://jmolivas.com"
+        },
+        {
+            "name":      "Eduardo Garcia",
+            "email":     "enzo@enzolutions.com",
+            "homepage":  "http://enzolutions.com/"
+        },
+        {
+            "name":      "Omar Aguirre",
+            "email":     "omersguchigu@gmail.com"
+        },
+        {
+            "name":      "Drupal Console Contributors",
+            "homepage":  "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hechoendrupal/DrupalConsole/issues",
+        "forum": "https://gitter.im/hechoendrupal/DrupalConsole",
+        "docs": "https://hechoendrupal.gitbooks.io/drupal-console/"
+    }
+}
