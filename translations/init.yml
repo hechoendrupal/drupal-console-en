@@ -1,3 +1,12 @@
-description: 'Copy configuration files to user home directory.'
+description: 'Copy configuration files.'
 options:
     override: 'Override configurations files'
+    auto: 'Creates the configuration files with no interaction'
+questions:
+    global: 'Do you want configure Drupal Console globally?'
+    path: 'Please enter the path to your site'
+    options.learning: 'Do you want DrupalConsole shows you infos for learning Drupal 8?'
+    options.examples: 'Do you want DrupalConsole shows you examples of commands usage?'
+    options.generate-inline: 'Do you want DrupalConsole shows you a inline representation of the executed command?'
+    options.generate-chain: 'Do you want DrupalConsole show you a representation of the executed command for using it in chain commands?'
+error-config: 'Generate config file was not possible'
