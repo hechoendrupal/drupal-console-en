@@ -52,6 +52,8 @@ site:
         directory: 'In order to list all of the available commands, you should run this against a drupal root directory.'
         not-installed: 'Drupal Console is not installed at: %s'
         execute-composer: 'You must execute this composer command:'
+        missing-config-file: 'Missing configuration file, possible paths:'
+        missing-config-file-command: 'Execute "drupal init" command to generate one'
 user:
     messages:
         path: 'User home path'

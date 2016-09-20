@@ -3,7 +3,7 @@ options:
   override: 'Override configurations files'
   local: 'Copy config.yml at current directory'
 questions:
-  local: 'Copy config.yml at current directory?'
+  local: 'Copy at current directory console/config.yml?'
   root: 'Enter drupal root directory [web, docroot] empty for none?'
   language: 'Select language'
   temp: 'Enter temporary file path'
