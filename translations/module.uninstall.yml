@@ -12,4 +12,4 @@ messages:
     nothing: 'Nothing to do. All modules are already uninstalled'
     success: 'The following module(s) were uninstalled successfully: "%s"'
     missing: 'Unable to uninstall modules "%s" due to missing modules "%s"'
-    composer-success: 'The folowing module(s) were removed from Composer: "%s"'
+    composer-success: 'You should execute now the following command: "composer remove vendor/package"'
