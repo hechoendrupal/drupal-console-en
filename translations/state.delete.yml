@@ -3,5 +3,5 @@ arguments:
     name: 'State name.'
 messages:
     enter-name: 'State name must contain a value.'
-    state-not-exists: 'The state "%s" does not exists.'
+    state-not-exists: 'The state "%s" does not exist.'
     deleted: 'State "%s" sucessfully deleted.'
