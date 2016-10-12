@@ -51,7 +51,7 @@ site:
         settings: 'In order to list all of the available commands you should install drupal first.'
         directory: 'In order to list all of the available commands, you should run this against a drupal root directory.'
         not-installed: 'Drupal Console is not installed at: %s'
-        execute-composer: 'You must execute this composer command:'
+        execute-composer: 'You must execute the following composer commands:'
         missing-config-file: 'Missing configuration file, possible paths:'
         missing-config-file-command: 'Execute "drupal init" command to generate one'
 user:
