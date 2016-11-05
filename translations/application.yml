@@ -43,7 +43,7 @@ messages:
         error: 'Command: "%s" is deprecated.'
         extra: 'You must execute: "%s" instead'
 errors:
-    invalid-command: 'Command "%s" does not exist.'
+    invalid-command: 'Command "%s", is not a valid command name.'
 site:
     messages:
         path: 'Site path'
