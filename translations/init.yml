@@ -1,10 +1,11 @@
 description: 'Copy configuration files.'
 options:
-  override: 'Override configurations files'
-  local: 'Copy config.yml at current directory'
+  destination: 'Destination directory to copy files'
+  override: 'Override configurations files flag'
+  autocomplete: 'Autocomplete tool files flag.'
 questions:
-  local: 'Copy at current directory console/config.yml?'
-  root: 'Enter drupal root directory [web, docroot] empty for none?'
+  destination: 'Select destination to copy configuration'
+  autocomplete: 'Generate autocomplete files'
   language: 'Select language'
   temp: 'Enter temporary file path'
   learning: 'Shows information for learning purposes?'
