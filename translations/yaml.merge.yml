@@ -5,7 +5,7 @@ arguments:
 questions:
     yaml-destination: 'Path of new YAML file to store the result of merge.'
     file: 'Path to the file to merge'
-    other-file: 'Path to the file to merge (cannot be empty to start the merge process)'
+    other-file: 'Path to the file to merge (empty to start the merge process)'
     invalid-file: 'Path of file cannot be empty'
     file-already-added: 'Path of file was already added'
 messages:
