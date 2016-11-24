@@ -16,3 +16,4 @@ questions:
     has-bundles: 'Do you want this (content) entity to have bundles'
     base-path: 'Enter the base-path for the content entity routes'
     is-translatable: 'Is your entity translatable'
+    revisionable: 'Is your entity revisionable'
