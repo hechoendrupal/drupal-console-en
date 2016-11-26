@@ -7,4 +7,5 @@ messages:
     route: Route
     path: Path
     defaults: Defaults
+    requirements: Requirements
     options: Options
