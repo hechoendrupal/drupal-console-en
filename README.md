@@ -4,11 +4,8 @@
 
 Drupal Console project it's installed per each Drupal 8 website with English language by default.
 
-To installe Drupal Console package for Indonesian language run the following instructions
+To install Drupal Console package in other languages check the packages available at [https://packagist.org](https://packagist.org)
 
-```
-$ composer require drupal/console-en
-```
 
 ### Install Drupal Console
 
