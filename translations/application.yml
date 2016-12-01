@@ -57,3 +57,13 @@ site:
 user:
     messages:
         path: 'User home path'
+
+remote:
+  errors:
+    passphrase-missing: 'Passphrase file is missing'
+    passphrase-empty: 'Passphrase file is empty'
+    private-missing: 'Private file is missing'
+    private-empty: 'Private file is empty'
+    private-invalid: 'Private file is invalid'
+    invalid-root: 'Invalid root directory'
+    console-not-found: 'Drupal Console not found on this site'
