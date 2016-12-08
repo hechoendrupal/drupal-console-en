@@ -12,5 +12,3 @@ messages:
     select-release: 'Please select your favorite release'
     outside-drupal: 'Drupal root can''t be determined. Use --root to set the destination, current folder will be used instead of.'
     error-creating-folder: 'Error creating folder "%s", please check your permissions'
-tips:
-  - tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
