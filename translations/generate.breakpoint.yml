@@ -1,5 +1,5 @@
 description: 'Generate breakpoint'
-help: 'The <info>generate:theme</info> command helps you generates a new breakpoint'
+help: 'The <info>generate:breakpoint</info> command helps you generates a new breakpoint'
 welcome: 'Welcome to the Drupal breakpoint generator'
 options:
     theme: 'Theme name'
