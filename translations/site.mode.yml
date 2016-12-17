@@ -1,6 +1,8 @@
 description: 'Switch system performance configuration'
 arguments:
     environment: 'Environment name [dev, prod]'
+options:
+    local: 'Use this option for testing PROD config, but using settings.local.php for connect to your local environment'
 messages:
     configuration: 'Configuration name'
     configuration-key: 'Configuration key'
