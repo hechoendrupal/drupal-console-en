@@ -1,5 +1,6 @@
-description: 'Export single configuration as yml file.'
+description: 'Export a single configuration or a list of configurations as yml file(s).'
 arguments:
+    config-names: 'Configuration names (when used with "chain" command).'
     config-name: 'Configuration name.'
 options:
     include-dependencies: 'Export dependencies of the configuration as well.'
@@ -18,4 +19,4 @@ messages:
     export: 'Configuration was exported at file "%s".'
     invalid-config-type: 'Invalid config type, please select one of the list'
     invalid-config-name: 'Invalid config name, please select one of the list'
-    config_exported: 'Configuration(s) exported sucessfully'
+    config_exported: 'Configuration(s) exported successfully'
