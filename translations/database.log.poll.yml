@@ -1,0 +1,9 @@
+description: 'Poll the watchdog and print new log entries every x seconds'
+arguments:
+    duration: 'Duration in seconds which to sleep between database reads'
+messages:
+    warning: | 
+                Do not use in production environments
+                As this script blocks you are advised to only run it on vm's with multiple cores for performance reasons
+                Stop this polling mechanism before you clean/truncate the watchdog table!
+                Quit with ^C
