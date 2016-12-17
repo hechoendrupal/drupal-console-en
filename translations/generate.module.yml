@@ -13,6 +13,7 @@ options:
     composer: 'Add a composer.json file'
     dependencies: 'Module dependencies separated by commas (i.e. context, panels)'
     test: 'Generate a test class'
+    twigtemplate: 'Generate theme template'
 questions:
     module: 'Enter the new module name'
     machine-name: 'Enter the module machine name'
@@ -26,6 +27,7 @@ questions:
     composer: 'Do you want to add a composer.json file to your module'
     dependencies: 'Would you like to add module dependencies'
     test: 'Do you want to generate a unit test class'
+    twigtemplate: 'Do you want to generate a themeable template'
 warnings:
     module-unavailable: 'Warning The following modules are not already available in your local environment "%s"'
 errors:
