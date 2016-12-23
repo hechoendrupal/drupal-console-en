@@ -1,0 +1,8 @@
+description: "Dump structure and contents of a database"
+arguments:
+  database: "Database key from settings.php"
+options:
+  file: 'The filename for your database backup'
+  gz: 'Pass this option if you want the sql result file gzipped'
+messages:
+    success: "Database exported to:"

@@ -1,0 +1,16 @@
+description: 'Display all user permissions and also list all user permissions from a specific user role.'
+help: |
+  List all user permissions:
+  <info>drupal permission:debug</info>
+
+  List all user permissions from a user role
+  <info>drupal permission:debug authenticated</info>
+
+arguments:
+    role: 'User role'
+messages:
+    role-error: 'Role "%s" does not exist. Please use an existing user role.'
+table-headers:
+    permission-name: 'Permission name'
+    permission-label: 'Permission Label'
+    permission-role: 'Role'

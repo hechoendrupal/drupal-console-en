@@ -1,0 +1,11 @@
+description: 'Import a single configurations or a list of configurations.'
+arguments:
+    name: 'Configuration name'
+    file: 'Path to the import file'
+    config-names: 'Configuration names (when used with "chain" command).'
+questions:
+    name: 'Enter configuration name'
+    file: 'Enter path to the import file'
+messages:
+    empty-value: 'Value can not be empty'
+    success: 'Configuration(s) "%s", has been imported successfully.'

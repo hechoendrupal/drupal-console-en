@@ -1,0 +1,8 @@
+description: 'Debug entities available in the system'
+help: 'The <info>entity:debug</info> command helps get a list of entities.'
+arguments:
+questions:
+messages:
+table-headers:
+  entity-name: 'Entity name'
+  entity-type: 'Entity type'
