@@ -1,0 +1,18 @@
+description: 'Add a database to settings.php'
+options:
+  database: 'The database name'
+  username: 'The database username'
+  password: 'The database password'
+  prefix: 'The database prefix'
+  host: 'The database host address'
+  port: 'The database host port'
+  driver: 'The database driver'
+questions:
+  database: 'Enter the database name'
+  username: 'Enter the username to access the database'
+  password: 'Enter password for the database user'
+  prefix: 'Enter the database prefix'
+  host: 'Enter the database host address'
+  port: 'Enter the database host port'
+  driver: 'Enter the database driver'
+error: 'Could not write the site settings file. Either run this command as sudo or temporarily change permissions to allow write access to settings.php.'
