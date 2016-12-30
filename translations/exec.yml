@@ -7,4 +7,7 @@ messages:
   success: 'Executed the command.'
   invalid-bin: 'Error executing the command.'
   missing-bin: 'Provide an executable command.'
+  binary-not-found: 'Unable to find the binary %s to execute.'
+  working-directory: 'Working directory'
+  executing-command: 'Executing command'
 
