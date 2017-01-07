@@ -1,0 +1,6 @@
+description: 'Rollback one or multiple migrations'
+arguments:
+    id: 'Migration id(s)'
+messages:
+    not-available: 'Migration Id "%s" is invalid.Skipping'
+    processing: 'Rollback "%s" completed'
