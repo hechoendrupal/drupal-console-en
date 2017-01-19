@@ -1,0 +1,4 @@
+description: 'Generate a cache context'
+questions:
+    name: 'Enter the cache context name'
+    class: 'Cache context class name'
