@@ -1,0 +1,10 @@
+description: 'List registered features.'
+help: ''
+arguments:
+  bundle: 'Bundle name'
+messages:
+  bundle: 'Bundle'
+  name: 'Name'
+  machine_name: 'Machine Name'
+  status: 'Status'
+  state: 'State'
