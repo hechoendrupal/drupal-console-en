@@ -1,5 +1,7 @@
-description: 'Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.'
+description: 'Display all plugin types.'
 help: |
+  Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
+
   List all plugin types:
   <info>drupal plugin:debug</info>
 

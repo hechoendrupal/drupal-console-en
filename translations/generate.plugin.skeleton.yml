@@ -1,5 +1,5 @@
-description: 'Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator'
-help: 'The <info>"%s"</info> command helps you generate a skeleton plugin "%s"'
+description: 'Generate an implementation of a skeleton plugin'
+help: 'The <info>"%s"</info> command helps you generate a skeleton plugin "%s".'
 options:
     module: common.options.module
     plugin: 'The Plugin Id.'
