@@ -3,4 +3,4 @@ options: {}
 arguments: {}
 messages:
     success: 'Config was successfully validated'
-    noConf: 'Config with this name does not exist'
+    no-conf: 'Config with this name does not exist'
