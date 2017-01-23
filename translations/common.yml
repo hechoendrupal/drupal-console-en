@@ -2,6 +2,8 @@ options:
     class: 'Class name'
     events: 'Load events from the container'
     module: 'The Module name.'
+    extension: 'The extension name.'
+    extension-type: 'The extension type.'
     services: 'Load services from the container.'
     tags: 'Set service tags from the container.'
     inputs: 'Create inputs in a form.'
@@ -9,6 +11,8 @@ options:
 questions:
     class: 'Enter the Class name'
     module: 'Enter the module name'
+    extension: 'Enter the extension name'
+    extension-type: 'Enter the extension type'
     confirm: 'Do you confirm generation?'
     canceled: 'Command generation canceled.'
     events:
