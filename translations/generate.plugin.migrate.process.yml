@@ -1,0 +1,9 @@
+description: 'Generate a migrate process plugin'
+help: 'Creates new process plugin for the migration.'
+options:
+  module: common.options.module
+  class: 'Plugin class name'
+  plugin-id: 'Plugin id'
+questions:
+  class: 'Enter the migration process plugin class name'
+  plugin-id: 'Enter the migration process plugin id'
