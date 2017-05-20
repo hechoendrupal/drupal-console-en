@@ -25,5 +25,5 @@ messages:
     already-installed: 'Drupal is already installed, try dropping your database executing database:drop or install executing site:install --force --no-interaction'
     sites-backup: 'The sites.php file has temporarily been renamed to backup.sites.php while Drupal installs.'
     sites-restore: 'The backup of sites.php has been been restored to sites.php.'
-    invalid-multisite: 'Invalid multisite, please create multisite using command drupal multisite:new %s --site-uri=%s'
+    invalid-multisite: 'Invalid multisite, please create multisite using command drupal multisite:new %s "%s"'
 
