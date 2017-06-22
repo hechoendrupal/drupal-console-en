@@ -1,4 +1,4 @@
-description: 'Displays current routes for the application'
+description: 'Displays current routes for the application or information for a particular route'
 arguments:
     route-name: 'Route names'
 messages:
@@ -9,3 +9,9 @@ messages:
     defaults: Defaults
     requirements: Requirements
     options: Options
+examples:
+    - description: 'Displays current routes for the application'
+      execution: 'drupal rod'
+    - description: 'Displays details for the route user.page (/user)'
+      execution: 'drupal rod user.page'
+
