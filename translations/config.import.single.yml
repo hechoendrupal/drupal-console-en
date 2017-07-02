@@ -1,11 +1,21 @@
-description: 'Import a single configurations or a list of configurations.'
-arguments:
-    name: 'Configuration name'
-    file: 'Path to the import file'
-    config-names: 'Configuration names (when used with "chain" command).'
+description: 'Import a single configuration or a list of configurations.'
+options:
+    file: 'The file(s) name or file(s) absolute path to import'
+    directory: 'The path from where to import file(s).'
 questions:
-    name: 'Enter configuration name'
-    file: 'Enter path to the import file'
+    file: 'Enter file name or file absolute path to import'
+    directory: 'Enter path from where to import files.'
 messages:
+    missing-file: 'File option is missing.'
     empty-value: 'Value can not be empty'
     success: 'Configuration(s) "%s", has been imported successfully.'
+examples:
+    - description: 'Providing a file option using full path.'
+      execution: |
+        drupal config:import:single \
+          --file="/path/to/file/block.block.default_block.yml"
+    - description: 'Providing file and directory options'
+      execution: |
+        drupal config:import:single  \
+          --file="block.block.default_block.yml" \
+          --directory="/path/to/directory"
