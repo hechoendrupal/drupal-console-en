@@ -11,3 +11,8 @@ messages:
     set-environment-placeholders: 'Set environment placeholders as:'
     missing-inline-placeholders: 'Missing inline placeholder(s) "%s"'
     set-inline-placeholders: 'Pass inline placeholders as:'
+examples:
+    - description: 'Providing a file option using full path.'
+      execution: |
+        drupal chain \
+          --file="/path/to/file/chain-file.yml"

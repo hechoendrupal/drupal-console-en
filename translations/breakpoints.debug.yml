@@ -3,3 +3,6 @@ options:
   group-name: 'Enter Breakpoint Group Name'
 messages:
   name: 'Extensions with breakpoints'
+examples:
+    - description: 'Provide a group name.'
+      execution: drupal breakpoints:debug bartik
