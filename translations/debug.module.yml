@@ -1,4 +1,5 @@
 description: 'Display current modules available for application'
+module: 'Module name'
 options:
     status: 'Module status [installed|uninstalled]'
     type: 'Module type [core|no-core]'
