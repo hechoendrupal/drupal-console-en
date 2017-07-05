@@ -9,6 +9,10 @@ options:
     config-file: 'Add a config file'
     inputs: common.options.inputs
     path: 'Enter the form path'
+    menu-link-gen: 'Generate a menu link'
+    menu-link-title: 'A title for the menu link'
+    menu-parent: 'Menu parent'
+    menu-link-desc: 'A description for the menu link'
 questions:
     module: common.questions.module
     class: 'Enter the Form Class name'
@@ -17,9 +21,5 @@ questions:
     config-file: 'Do you want to generate a config file'
     inputs: common.questions.inputs
     routing: 'Would you like to register a route for this form'
-    menu_link_gen: 'Generate a menu link'
-    menu_link_title: 'A title for the menu link'
-    menu_parent: 'Menu parent'
-    menu_link_desc: 'A description for the menu link'
     path: 'Enter the route path'
 
