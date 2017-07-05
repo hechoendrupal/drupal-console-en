@@ -11,3 +11,13 @@ arguments:
 options:
     optional-config: 'Export view as an optional YAML configuration in your module'
     include-module-dependencies: 'Include module dependencies in module info YAML file'
+examples:
+    - description: 'Provide a view id'
+      execution: drupal config:export:view viewid
+    - description: 'You can provide the interactive values like parameter.'
+      execution: |
+        drupal config:export:view viewid \
+          --module="modulename" \
+          --optional-config \
+          --include-module-dependencies
+

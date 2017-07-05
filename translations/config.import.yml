@@ -9,3 +9,13 @@ messages:
     importing: 'Importing configuration.'
     already-imported: 'Another request may be synchronizing configuration already.'
     nothing-to-do: 'There are no changes to import.'
+examples:
+    - description: 'Provide a configuration file'
+      execution: |
+        drupal config:import \
+          --file=/path/to/config/file
+    - description: 'Provide a configuration directory'
+      execution: |
+        drupal config:import  \
+          --directory=/path/to/config/dir
+

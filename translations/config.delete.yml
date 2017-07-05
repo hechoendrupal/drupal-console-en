@@ -11,6 +11,10 @@ errors:
     type: 'Configuration type is missing.'
     not-exists: 'The configuration "%s" does not exist.'
 warnings:
-    undo: 'This action will delete all configuration permanentaly.'
+    undo: 'This action will delete all configuration permanently.'
 questions:
     sure: 'Are you sure to delete all configuration'
+examples:
+    - description: 'Provide a config type and a config name'
+      execution: drupal config:delete active all
+

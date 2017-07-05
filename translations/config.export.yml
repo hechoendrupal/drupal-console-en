@@ -7,3 +7,16 @@ options:
 messages:
     directory: 'The configuration was exported at "%s"'
     error: 'An error occurred while creating your directory at "%s"'
+examples:
+    - description: 'Optional you can add the path to export'
+      execution: |
+        drupal config:export  \
+          --directory="path/to/export"
+    - description: 'If export will be in a compressed file and/or if uuid and config hashes will be removed.'
+      execution: |
+        drupal config:export  \
+          --directory="path/to/export" \
+          --tar \
+          --remove-uuid \
+          --remove-config-hash
+

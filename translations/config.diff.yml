@@ -12,3 +12,7 @@ table:
       operation: 'Operation'
 messages:
     no-changes: 'There are no changes.'
+examples:
+    - description: 'Provide a config directory'
+      execution: drupal config:diff ../config/path
+

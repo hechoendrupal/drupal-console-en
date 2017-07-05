@@ -4,3 +4,7 @@ arguments: {}
 messages:
     success: 'Config was successfully validated'
     no-conf: 'Config with this name does not exist'
+examples:
+    - description: 'Provide the configuration name.'
+      execution: 'drupal config:validate configuration.name'
+

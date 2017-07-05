@@ -19,3 +19,15 @@ messages:
     invalid-config-type: 'Invalid config type, please select one of the list'
     invalid-config-name: 'Invalid config name, please select one of the list'
     config-exported: 'Configuration(s) exported sucessfully'
+examples:
+    - description: 'Provide config settings name to be exported'
+      execution: |
+        drupal config:export:single \
+          --name=config.settings.name
+    - description: 'if uuid and/or config hashes will be removed.'
+      execution: |
+        drupal config:export:single \
+          --name=config.settings.name \
+          --remove-uuid \
+          --remove-config-hash
+
