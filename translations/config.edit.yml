@@ -1,8 +1,13 @@
-description: 'Edit the selected configuration.'
+description: 'Change a configuration object with a text editor.'
 arguments:
-    config-name: 'Configuration name.'
-    editor: Editor.
+    config-name: 'Configuration object name, for example "user.settings".'
+    editor: 'Editor, for example "vim" or "gedit".'
 questions:
-    config-name: 'Choose a configuration unit'
+    config-name: 'Choose a configuration Object'
 messages:
-    no-directory: 'An error occurred while creating your directory at'
+    no-directory: 'An error occurred while creating your directory at: %s'
+examples:
+    - description: 'Edit system cron configurations with "vim" (default editor).'
+      execution: 'drupal config:edit system.cron'
+    - description: 'Edit system cron configurations with "gedit".'
+      execution: 'drupal config:edit system.cron gedit'

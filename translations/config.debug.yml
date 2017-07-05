@@ -1,5 +1,13 @@
-description: 'Show the current configuration.'
+description: 'List configuration objects names and single configuration object.'
 arguments:
-    name: 'Configuration name.'
+    name: 'Configuration object name, for example "system.site".'
 errors:
     not-exists: 'The configuration "%s" does not exist.'
+
+examples:
+    - description: 'List all configuration object names.'
+      execution: 'drupal config:debug'
+    - description: 'Display system site configurations values.'
+      execution: 'drupal config:debug system.site'
+    - description: 'List all system configuration names.'
+      execution: 'drupal config:debug | grep system'
