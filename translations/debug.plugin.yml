@@ -1,4 +1,4 @@
-description: 'Display all plugin types.'
+description: 'Displays all plugin types.'
 help: |
   Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 

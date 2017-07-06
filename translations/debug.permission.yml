@@ -1,4 +1,4 @@
-description: 'Display all user permissions.'
+description: 'Displays all user permissions.'
 help: |
   Display all user permissions and also list all user permissions from a specific user role.
 

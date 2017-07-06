@@ -1,4 +1,4 @@
-description: 'Display basic information about Drupal Console project'
+description: 'Displays basic information about Drupal Console project'
 messages:
     welcome: 'The Drupal Console is a suite of tools that you run on the CLI to:'
     welcome-feature-generate: 'Generate boilerplate code.'

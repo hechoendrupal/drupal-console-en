@@ -1,4 +1,4 @@
-description: 'Display current events '
+description: 'Displays current events '
 help: 'The <info>event:debug</info> command helps you debug events.'
 arguments:
   event: 'Event to debug'

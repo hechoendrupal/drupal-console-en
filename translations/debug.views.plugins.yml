@@ -1,4 +1,4 @@
-description: 'Display current views plugins for the application'
+description: 'Displays current views plugins for the application'
 arguments:
     type: 'Filter views plugins by type'
 messages:
