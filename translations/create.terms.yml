@@ -16,3 +16,12 @@ messages:
     name: 'Name'
     invalid-vocabularies: 'Vocabulary(s) "%s" are invalid'
     created-terms: 'Created "%s" terms successfully'
+examples:
+    - description: 'Provide the vocabulary term name.'
+      execution: drupal create:terms vocabulary
+    - description: 'Provide the limit of terms to add and limit of title words.'
+      execution: |
+        drupal create:terms tags \
+          --limit="10" \
+          --name-words="5"
+

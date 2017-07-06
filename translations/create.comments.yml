@@ -28,3 +28,13 @@ messages:
     created: 'Created Time'
     invalid-content-types: 'Content types "%s" are invalid'
     created-comments: 'Created "%s" comments successfully'
+examples:
+    - description: 'Provide the node id where the comments will be generated.'
+      execution: drupal create:comments  node-id
+    - description: 'Provide number of comments to generate, max title words and time range.'
+      execution: |
+        drupal create:comments  node-id \
+          --limit="2" \
+          --title-words="5" \
+          --time-range="1"
+

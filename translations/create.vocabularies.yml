@@ -12,3 +12,10 @@ messages:
     name: 'Name'
     created-terms: 'Created "%s" vocabularies successfully'
     error: 'Error creating vocabularies: "%s"'
+examples:
+    - description: 'Provide the number of vocabularies to create and maximum number of words in vocabulary names'
+      execution: |
+        drupal create:vocabularies \
+          --limit="5" \
+          --name-words="5"
+    

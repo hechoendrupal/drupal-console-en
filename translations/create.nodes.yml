@@ -26,3 +26,14 @@ messages:
     created: 'Created Time'
     invalid-content-types: 'Content types "%s" are invalid'
     created-nodes: 'Created "%s" nodes successfully'
+examples:
+    - description: 'Provide the content type name.'
+      execution: drupal create:nodes content-name
+    - description: 'Provide the limit of publications, limit of title words, time range and language.'
+      execution: |
+        drupal create:nodes content-name \
+          --limit="5" \
+          --title-words="5" \
+          --time-range="1" \
+          --language="und"
+
