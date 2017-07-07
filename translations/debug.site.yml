@@ -8,3 +8,6 @@ messages:
   invalid-site: 'Invalid site name'
   private-key: 'Error with private key'
   connect-error: 'Error connecting to remote machine'
+options:
+  target: 'Target'
+  property: 'Property'
