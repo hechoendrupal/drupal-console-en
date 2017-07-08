@@ -7,3 +7,8 @@ question:
 messages:
     table: 'Table'
     table-drop: 'Drop "%s" tables successfully'
+examples:
+    - description: 'Drop the tables on the database specified on the argument'
+      execution: |
+        drupal database:drop \
+          <database>

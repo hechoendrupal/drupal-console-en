@@ -3,3 +3,7 @@ arguments:
     database: "Database key from settings.php"
 messages:
     connection: 'Connection: "%s"'
+examples:
+    - description: 'Launch the default client or could launch another regarding the specification on the argument'
+      execution: |
+        drupal database:client <database>

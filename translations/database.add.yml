@@ -16,3 +16,10 @@ questions:
   port: 'Enter the database host port'
   driver: 'Enter the database driver'
 error: 'Could not write the site settings file. Either run this command as sudo or temporarily change permissions to allow write access to settings.php.'
+examples:
+    - description: 'Add a database to the settings.php'
+      execution: |
+        drupal database:add \
+          --database=DATABASE \
+          --username=USERNAME \
+          --password=PASSWORD

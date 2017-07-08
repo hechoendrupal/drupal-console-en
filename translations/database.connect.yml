@@ -6,3 +6,8 @@ messages:
     database-not-supported: 'Database type "%s" is not supported yet'
     database-client-not-found: 'Database client "%s" wasn''t found'
     connection: 'Connection: "%s"'
+examples:
+    - description: 'Connects to an specified database, or the default if not arguments passed'
+      execution: |
+        drupal database:connect \
+          <database>

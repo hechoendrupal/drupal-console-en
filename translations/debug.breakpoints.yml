@@ -6,3 +6,7 @@ messages:
 examples:
     - description: 'Provide a group name.'
       execution: drupal breakpoints:debug bartik
+examples:
+    - description: 'Displays the breakpoints availables on the site'
+      execution: |
+        drupal debug:breakpoints

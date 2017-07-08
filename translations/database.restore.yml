@@ -7,3 +7,8 @@ messages:
     success: "Database imported from:"
     no-file: "Missing file option"
 help: "Restore structure and contents of a database."
+examples:
+    - description: 'Restore the database file dump to the database default or another one specified'
+      execution: |
+        drupal database:restore \
+          --file='/srv/dump/db.sql'

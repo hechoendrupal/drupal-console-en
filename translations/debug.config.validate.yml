@@ -6,3 +6,9 @@ messages:
     noConfFile: 'Config file at the specified path does not exist'
     noConfSchema: 'Config schema at the specified path does not exist'
     noSchemaName: 'Could not find schema definition in schema file. Using definition name:'
+examples:
+    - description: ''
+      execution: |
+        drupal debug:config:validate \
+          /path/to/file \
+          /path/to/schema-filepath

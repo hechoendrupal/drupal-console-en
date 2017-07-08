@@ -7,3 +7,8 @@ messages:
                 As this script blocks you are advised to only run it on vm's with multiple cores for performance reasons
                 Stop this polling mechanism before you clean/truncate the watchdog table!
                 Quit with ^C
+examples:
+    - description: 'Print the log entries on screen every x seconds'
+      execution: |
+        drupal database:log:poll \
+          100

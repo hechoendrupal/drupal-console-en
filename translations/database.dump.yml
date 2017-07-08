@@ -6,3 +6,12 @@ options:
   gz: 'Pass this option if you want the sql result file gzipped'
 messages:
     success: "Database exported to:"
+examples:
+    - description: 'Dump default database or the one specified on the argument'
+      execution: |
+        drupal database:dump \
+          <database>
+    - description: 'Dump in gz compressed format'
+      execution: |
+        drupal database:dump \
+          --gz

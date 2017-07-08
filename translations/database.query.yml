@@ -13,3 +13,7 @@ options:
 messages:
     connection: 'Connection: "%s"'
 help: 'First argument should be the SQL statement. Second argument could be the name of the affected database.'
+examples:
+    - description: 'Send a database query'
+      execution: |
+        drupal database:query 'select * from node limit 0,1'
