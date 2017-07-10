@@ -49,6 +49,7 @@ messages:
         extra: 'You must execute: "%s" instead'
 errors:
     invalid-command: 'Command "%s", is not a valid command name.'
+    renamed-command: 'Command "%s" was renamed, use "%s" instead.'
 site:
     messages:
         path: 'Site path'
