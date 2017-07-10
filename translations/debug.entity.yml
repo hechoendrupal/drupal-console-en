@@ -6,3 +6,7 @@ messages:
 table-headers:
   entity-name: 'Entity name'
   entity-type: 'Entity type'
+examples:
+    - description: 'Displays the available entities'
+      execution: |
+        drupal debug:entity

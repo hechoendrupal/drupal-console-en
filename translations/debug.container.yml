@@ -17,3 +17,7 @@ messages:
     return: 'Return'
 errors:
     method_not_exists: "This method doesn't exists in this service."
+examples:
+    - description: 'Displays the views.views_data_helper services'
+      execution: |
+        drupal debug:container views.views_data_helper

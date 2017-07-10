@@ -7,7 +7,7 @@ messages:
     noConfSchema: 'Config schema at the specified path does not exist'
     noSchemaName: 'Could not find schema definition in schema file. Using definition name:'
 examples:
-    - description: ''
+    - description: 'Validates a schema'
       execution: |
         drupal debug:config:validate \
           /path/to/file \
