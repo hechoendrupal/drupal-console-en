@@ -4,3 +4,10 @@ options:
     class: 'Authentication Provider class'
     provider-id: 'Provider ID'
 module: common.options.module
+examples:
+  - description: 'Generate an authentication provider specifying the module, the class and the provider id'
+    execution: |
+      drupal generate:authentication:provider  \
+        --module="modulename"  \
+        --class="DefaultAuthenticationProvider"  \
+        --provider-id="default_authentication_provider"

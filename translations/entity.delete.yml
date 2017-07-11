@@ -9,3 +9,7 @@ questions:
   entity-id: 'Enter the  Entity ID to be deleted'
 messages:
   deleted: 'Entity %s with id %s was deleted successfully'
+examples:
+  - description: 'Delete entity type content using node id'
+    execution: |
+      drupal entity:delete node 1

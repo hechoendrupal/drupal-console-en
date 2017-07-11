@@ -7,3 +7,10 @@ options:
 questions:
   class: 'Enter the migration process plugin class name'
   plugin-id: 'Enter the migration process plugin id'
+examples:
+  - description: 'Generate a migration plugin process specifying the module name, the class and its id'
+    execution: |
+      drupal generate:plugin:migrate:process  \
+        --module="modulename"  \
+        --class="MigrationProcess"  \
+        --plugin-id="migrationprocess"

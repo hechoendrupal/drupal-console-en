@@ -6,3 +6,10 @@ options:
   image-style: 'The Images Styles name.'
 questions:
   image-style: 'Select Images Styles to flush.'
+examples:
+  - description: 'Flush large image style'
+    execution: |
+      drupal image:styles:flush  large
+  - description: 'Flush thumbnail image style'
+    execution: |
+      drupal image:styles:flush  thumbnail
