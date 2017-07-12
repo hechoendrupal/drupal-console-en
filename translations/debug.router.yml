@@ -19,5 +19,5 @@ examples:
       execution: |
         drupal debug:router
     - description: 'Display information on the user.login'
-          execution: |
-            drupal debug:router user.login
+      execution: |
+        drupal debug:router user.login
