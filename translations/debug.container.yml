@@ -4,8 +4,8 @@ arguments:
     method: 'Method name.'
     arguments: 'Array of Arguments in CSV or JSON format.'
 messages:
-    service_id: 'Service ID'
-    class_name: 'Class Name'
+    service-id: 'Service ID'
+    class-name: 'Class Name'
     service: 'Service'
     class: 'Class'
     interface: 'Interface(s)'
@@ -16,7 +16,7 @@ messages:
     method: 'Method'
     return: 'Return'
 errors:
-    method_not_exists: "This method doesn't exists in this service."
+    method-not-exists: "This method doesn't exists in this service."
 examples:
     - description: 'Displays the views.views_data_helper services'
       execution: |

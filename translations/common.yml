@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: 'Do you want to generate a form structure?'
         label: 'Input label'
-        machine_name: 'Input machine name'
+        machine-name: 'Input machine name'
         permission: 'Do you want to generate permissions?'
         type: 'New field type (press <return> to stop adding fields)'
         invalid: 'Field Type "%s" is invalid.'

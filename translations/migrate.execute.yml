@@ -11,7 +11,7 @@ options:
     db-prefix: 'Database Prefix'
     db-port: 'Database Port'
     exclude: 'Migration id(s) to exclude'
-    source-base_path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base-path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
 questions:
     id: 'Migration Id'
     exclude-id: 'Migration Id to exclude (press <return> to stop adding migrations to exclude)'
@@ -25,7 +25,7 @@ questions:
     db-prefix: 'Database Prefix'
     db-port: 'Database Port'
     invalid-migration-id: 'Migration Id "%s" is invalid'
-    source-base_path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base-path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
 messages:
     processing: 'Processing Migration "%s"'
     imported: 'Migration "%s" was imported correctly'

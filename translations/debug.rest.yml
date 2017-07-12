@@ -6,14 +6,14 @@ options:
 messages:
     id: 'Rest ID'
     label: Label
-    canonical_url: 'Canonical URL'
+    canonical-url: 'Canonical URL'
     status: Status
     provider: Provider
     enabled: Enabled
     disabled: Disabled
     rest-state: 'REST States'
     supported-formats: 'Supported Formats'
-    supported_auth: 'Supported Authentication Providers'
+    supported-auth: 'Supported Authentication Providers'
     not-found: 'Rest resource "%s" not found'
 examples:
     - description: 'Displays rest hooks'

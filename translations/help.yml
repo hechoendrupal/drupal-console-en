@@ -10,7 +10,7 @@ help: |
 
         To display the list of available commands, please use the <info>list</info> command.
 arguments:
-    command_name: 'The command name'
+    command-name: 'The command name'
 options:
     xml: 'To output list as XML'
     raw: 'To output raw command list'

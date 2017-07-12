@@ -17,7 +17,7 @@ options:
 
 messages:
   usage: "<comment>Usage:</comment>\n"
-  usage_details: "  command [options] [arguments]\n\n"
+  usage-details: "  command [options] [arguments]\n\n"
   arguments: '<comment>Arguments:</comment>'
   options: '<comment>Options:</comment>'
   help: '<comment>Help:</comment>'
