@@ -4,3 +4,10 @@ options:
 messages:
    name: 'Extension with Libraries'
    info: 'Libraries Information'
+examples:
+    - description: 'List all available libraries'
+      execution: |
+        drupal debug:libraries
+    - description: 'List block library information'
+      execution: |
+        drupal debug:libraries block

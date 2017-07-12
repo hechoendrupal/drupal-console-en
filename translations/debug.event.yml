@@ -7,3 +7,10 @@ messages:
   class: 'Class'
   method: 'Method'
   no-events: "This event does not exist, try to execute command: event:debug"
+examples:
+    - description: 'List all the events that could be debugged'
+      execution: |
+        drupal debug:evet
+    - description: 'Show the information for the kernel.request event'
+      execution: |
+        drupal debug:event kernel.request

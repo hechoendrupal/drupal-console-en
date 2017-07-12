@@ -4,3 +4,10 @@ arguments:
   key: 'The State key to debug.'
 messages:
   key: 'The State key'
+examples:
+    - description: 'List of the states on the site'
+      execution: |
+        drupal debug:state
+    - description: 'Displays a detail of the state install_task tok from the list of states'
+      execution: |
+        drupal debug:state install_task

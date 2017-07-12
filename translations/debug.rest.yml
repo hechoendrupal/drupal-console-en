@@ -15,3 +15,7 @@ messages:
     supported-formats: 'Supported Formats'
     supported_auth: 'Supported Authentication Providers'
     not-found: 'Rest resource "%s" not found'
+examples:
+    - description: 'Displays rest hooks'
+      execution: |
+        drupal debug:rest

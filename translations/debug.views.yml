@@ -16,3 +16,7 @@ messages:
     display-name: Name
     display-description: Description
     display-paths: Paths
+examples:
+    - description: 'List of views on the site'
+      execution: |
+        drupal debug:views

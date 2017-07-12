@@ -16,3 +16,7 @@ table-headers:
     permission-name: 'Permission name'
     permission-label: 'Permission Label'
     permission-role: 'Role'
+examples:
+    - description: 'Displays all the permissions availables on the site'
+      execution: |
+        drupal debug:permission

@@ -9,9 +9,9 @@ options:
 messages:
   not-found: 'DBLog event "%s" wasn''t found'
 examples:
-  - description: 'List all the entries on the log'
-    execution: |
-      drupal debug:database:log
-  - description: 'List specific log entry by Event ID'
-    execution: |
-      drupal debug:database:log 21228
+    - description: 'List all the entries on the log'
+      execution: |
+        drupal debug:database:log
+    - description: 'List specific log entry by Event ID'
+      execution: |
+        drupal debug:database:log 21228

@@ -5,3 +5,7 @@ messages:
   site: Site
   directory: Directory
   site-format: "Sites are written using the format: <port>.<domain>.<path>"
+examples:
+    - description: 'Displays multisite information'
+      execution: |
+        drupal debug:multisite

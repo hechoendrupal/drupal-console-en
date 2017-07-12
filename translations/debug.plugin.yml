@@ -24,3 +24,13 @@ table-headers:
     plugin-class: 'Plugin class'
     definition-key: 'Key'
     definition-value: 'Value'
+examples:
+    - description: 'Displays a list with all the plugins on the current site'
+      execution: |
+        drupal debug:plugin
+    - description: 'Displays block plugin information'
+      execution: |
+        drupal debug:plugin block
+    - description: 'Displays block broken information'
+      execution: |
+        drupal debug:plugin block broken

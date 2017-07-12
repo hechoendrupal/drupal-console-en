@@ -15,3 +15,7 @@ messages:
     username: 'Username'
     roles: 'Roles'
     status: 'Status'
+examples:
+    - description: 'Users list on the site'
+      execution: |
+        drupal debug:user

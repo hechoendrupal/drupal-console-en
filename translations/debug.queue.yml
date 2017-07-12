@@ -3,3 +3,7 @@ messages:
   queue: 'Queue'
   items: 'Items'
   class: 'Class'
+examples:
+    - description: 'Displays the queues of the application'
+      execution: |
+        drupal debug:queue
