@@ -1,3 +1,10 @@
 description: 'Disable a View'
 messages:
-    disabled-successfully: 'View "%s" was disabled successfully.'
+  disabled-successfully: 'View "%s" was disabled successfully.'
+examples:
+  - description: 'Disable content view'
+    execution: |
+      drupal views:disable  content
+  - description: 'Disable frontpage view'
+    execution: |
+      drupal views:disable  frontpage

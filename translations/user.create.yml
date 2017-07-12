@@ -2,23 +2,36 @@ description: 'Create users for the application'
 help: 'The <info>user:create</info> command helps you create users.'
 welcome: 'Welcome to the Drupal user create'
 options:
-    username: 'User name to be created'
-    password: 'User password'
-    roles: 'User roles'
-    email: 'User email'
-    status: 'User status'
+  username: 'User name to be created'
+  password: 'User password'
+  roles: 'User roles'
+  email: 'User email'
+  status: 'User status'
 questions:
-    username: 'User name to be created'
-    password: 'User password (empty to auto-generate)'
-    roles: 'User roles (empty to skip)'
-    email: 'User e-mail (empty to skip)'
-    status: 'User status (empty to skip)'
+  username: 'User name to be created'
+  password: 'User password (empty to auto-generate)'
+  roles: 'User roles (empty to skip)'
+  email: 'User e-mail (empty to skip)'
+  status: 'User status (empty to skip)'
 messages:
-    user-id: 'User ID'
-    username: 'Username'
-    password: 'Password'
-    email: 'E-mail'
-    roles: 'Roles'
-    created: 'Created'
-    status: 'Status'
-    user-created: 'User "%s" was created successfully'
+  user-id: 'User ID'
+  username: 'Username'
+  password: 'Password'
+  email: 'E-mail'
+  roles: 'Roles'
+  created: 'Created'
+  status: 'Status'
+  user-created: 'User "%s" was created successfully'
+examples:
+  - description: 'Create user specifying username, password, role, email and status'
+    execution: |
+      drupal user:create  john p455w0rd  \
+        --roles='authenticated'  \
+        --email="john@anexusit.com"  \
+        --status="1"
+  - description: 'Create admin user specifying username, password, role, email and status'
+    execution: |
+      drupal user:create  doe p455w0rd  \
+        --roles='administrator'  \
+        --email="doe@anexusit.com"  \
+        --status="1"
