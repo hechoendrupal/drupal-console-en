@@ -19,4 +19,3 @@ examples:
         drupal config:import:single  \
           --file="block.block.default_block.yml" \
           --directory="/path/to/directory"
-

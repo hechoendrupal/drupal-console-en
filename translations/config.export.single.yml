@@ -18,7 +18,7 @@ messages:
     export: 'Configuration was exported at file "%s".'
     invalid-config-type: 'Invalid config type, please select one of the list'
     invalid-config-name: 'Invalid config name, please select one of the list'
-    config-exported: 'Configuration(s) exported sucessfully'
+    config-exported: 'Configuration(s) exported successfully'
 examples:
     - description: 'Provide config settings name to be exported'
       execution: |
@@ -30,4 +30,3 @@ examples:
           --name=config.settings.name \
           --remove-uuid \
           --remove-config-hash
-
