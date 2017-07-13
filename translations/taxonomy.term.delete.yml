@@ -1,6 +1,11 @@
 description: 'Delete taxonomy terms from a vocabulary'
+vid: 'Enter vocabulary id'
 help: 'This command takes the VID as argument or all which will delete every term from every vocabulary'
 examples:
   - description: 'Delete all terms of the "tags" vocabulary'
     execution: |
       drupal taxonomy:term:delete  tags
+messages:
+    nothing: 'All taxonomy terms from "%s" vocabulary already deleted.'
+    processing: 'Deleting "%s" taxonomy term.'
+    invalid-vocabulary: 'Invalid "%s" vocabulary.'      
