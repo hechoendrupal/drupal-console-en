@@ -1,0 +1,11 @@
+description: 'Generate a cache context'
+questions:
+  name: 'Enter the cache context name'
+  class: 'Cache context class name'
+examples:
+  - description: 'Generate cache for a context specifying the module, the context name and its class'
+    execution: |
+      drupal generate:cache:context  \
+        --module="modulename"  \
+        --cache-context="ContextName"  \
+        --class="DefaultCacheContext"

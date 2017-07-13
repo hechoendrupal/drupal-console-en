@@ -1,0 +1,38 @@
+description: 'Generate a new content entity'
+help: ''
+options:
+  module: common.options.module
+  entity-class: 'The content entity class'
+  entity-name: 'The content entity name'
+  label: 'The label'
+  has-bundles: 'Entity has bundles'
+  base-path: 'The base-path for the content entity routes'
+  is-translatable: 'Content entity translatable'
+questions:
+  module: common.questions.module
+  entity-class: 'Enter the class of your new content entity'
+  entity-name: 'Enter the machine name of your new content entity'
+  label: 'Enter the label of your new content entity'
+  has-bundles: 'Do you want this (content) entity to have bundles'
+  base-path: 'Enter the base-path for the content entity routes'
+  is-translatable: 'Is your entity translatable'
+  revisionable: 'Is your entity revisionable'
+examples:
+  - description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'
+    execution: |
+      drupal generate:entity:content  \
+        --module="modulename"  \
+        --entity-class="DefaultEntity"  \
+        --entity-name="default_entity"  \
+        --base-path="/admin/structure"  \
+        --label="Default entity"
+  - description: 'Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label'
+    execution: |
+      drupal generate:entity:content  \
+        --module="modulename"  \
+        --entity-class="DefaultEntity"  \
+        --entity-name="default_entity"  \
+        --base-path="/admin/structure"  \
+        --label="Default entity"  \
+        --is-translatable  \
+        --revisionable

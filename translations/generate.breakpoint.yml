@@ -1,0 +1,20 @@
+description: 'Generate breakpoint'
+help: 'The <info>generate:breakpoint</info> command helps you generates a new breakpoint'
+welcome: 'Welcome to the Drupal breakpoint generator'
+options:
+  theme: 'Theme name'
+  breakpoints: Breakpoints
+questions:
+  theme: 'Enter the theme name (i.e. classy, stable)'
+  breakpoint-name: 'Enter breakpoint name'
+  breakpoint-label: 'Enter breakpoint label'
+  breakpoint-media-query: 'Enter breakpoint media query'
+  breakpoint-weight: 'Enter breakpoint weight'
+  breakpoint-multipliers: 'Enter breakpoint multipliers'
+  breakpoint-add: 'Do you want to add another breakpoint'
+examples:
+  - description: 'Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers'
+    execution: |
+      drupal generate:breakpoint  \
+        --theme="classy"  \
+        --breakpoints='"breakpoint_name":"narrow", "breakpoint_label":"narrow", "breakpoint_media_query":"all and (min-width: 560px) and (max-width: 850px)", "breakpoint_weight":"1", "breakpoint_multipliers":"1x"'

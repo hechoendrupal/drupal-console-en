@@ -1,0 +1,25 @@
+description: 'Generate a plugin mail'
+help: 'The <info>generate:plugin:mail</info> command helps you generate a new Plugin mail.'
+welcome: 'Welcome to the Drupal Plugin Mail generator'
+options:
+  module: common.options.module
+  class: 'Plugin class name'
+  label: 'Plugin label'
+  plugin-id: 'Plugin id'
+  inputs: common.options.inputs
+  services: common.options.services
+questions:
+  module: common.questions.module
+  class: 'Enter the plugin class name'
+  label: 'Enter the plugin label'
+  plugin-id: 'Enter the plugin id'
+  inputs: common.questions.inputs
+  services: common.questions.services
+examples:
+  - description: 'Generate an email plugin specifying the module name, the class, its label and the plugin id'
+    execution: |
+      drupal generate:plugin:mail  \
+        --module="modulename"  \
+        --class="HtmlFormatterMail"  \
+        --label="Html formatter mail"  \
+        --plugin-id="html_formatter_mail"

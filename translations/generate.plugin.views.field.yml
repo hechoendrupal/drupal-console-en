@@ -1,0 +1,19 @@
+description: 'Generate a custom plugin view field.'
+help: 'The <info>generate:plugin:views:field</info> command helps you generate a new custom views field plugin.'
+options:
+  class: 'Views plugin field class name'
+  title: 'Views plugin field title'
+  description: 'Views plugin field description'
+questions:
+  class: 'Views plugin field class name'
+  title: 'Views plugin field title'
+  description: 'Views plugin field description'
+  description_default: 'My awesome custom views field plugin.'
+examples:
+  - description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'
+    execution: |
+      drupal generate:plugin:views:field  \
+        --module="modulename"  \
+        --class="CustomViewsField"  \
+        --title="Custom views field"  \
+        --description="My awesome custom views field plugin."

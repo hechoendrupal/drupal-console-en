@@ -1,0 +1,20 @@
+description: 'Generate image formatter plugin.'
+help: 'The <info>generate:plugin:imageformatter</info> command helps you generate a new image formatter plugin.'
+options:
+  module: common.options.module
+  class: 'Plugin class name'
+  label: 'Plugin label'
+  plugin-id: 'Plugin id'
+questions:
+  module: common.questions.module
+  class: 'Enter the plugin class name'
+  label: 'Enter the plugin label'
+  plugin-id: 'Enter the plugin id'
+examples:
+  - description: 'Generate a image formatter plugin specifying the module name, the class, its label and the plugin id'
+    execution: |
+      drupal generate:plugin:imageformatter  \
+        --module="modulename"  \
+        --class="ExampleImageFormatter"  \
+        --label="Example image formatter"  \
+        --plugin-id="example_image_formatter"
