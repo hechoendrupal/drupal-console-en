@@ -11,6 +11,8 @@ messages:
     set-environment-placeholders: 'Set environment placeholders as:'
     missing-inline-placeholders: 'Missing inline placeholder(s) "%s"'
     set-inline-placeholders: 'Pass inline placeholders as:'
+    select-value-for-placeholder: 'Select value for %s placeholder'
+    enter-value-for-placeholder: 'Enter value for %s placeholder'
 examples:
     - description: 'Providing a file option using full path.'
       execution: |

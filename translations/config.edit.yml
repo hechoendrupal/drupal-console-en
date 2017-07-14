@@ -6,6 +6,7 @@ questions:
     config-name: 'Choose a configuration Object'
 messages:
     no-directory: 'An error occurred while creating your directory at: %s'
+    choose-configuration: 'Choose a configuration'
 examples:
     - description: 'Edit system cron configurations with "vim" (default editor).'
       execution: 'drupal config:edit system.cron'
