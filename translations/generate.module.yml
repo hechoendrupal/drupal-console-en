@@ -28,6 +28,8 @@ questions:
   dependencies: 'Would you like to add module dependencies'
   test: 'Do you want to generate a unit test class'
   twigtemplate: 'Do you want to generate a themeable template'
+suggestions:
+  my-awesome-module: 'My Awesome Module'
 warnings:
   module-unavailable: 'Warning The following modules are not already available in your local environment "%s"'
 errors:

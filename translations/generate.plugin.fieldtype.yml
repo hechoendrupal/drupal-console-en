@@ -17,6 +17,8 @@ questions:
   description: 'Enter the plugin Description'
   default-widget: 'Enter the default field widget of this plugin'
   default-formatter: 'Enter the default field formatter of this plugin'
+suggestions:
+  my-field-type: 'My Field Type'
 examples:
   - description: 'Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description'
     execution: |

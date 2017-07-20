@@ -37,6 +37,9 @@ questions:
   breakpoint-weight: 'Enter breakpoint weight'
   breakpoint-multipliers: 'Enter breakpoint multipliers'
   breakpoint-add: 'Do you want to add another breakpoint'
+suggestions:
+  my-awesome-theme: 'My Awesome theme'
+  other: 'Other'
 warnings:
   module-unavailable: 'Warning The following modules are not already available in your local environment "%s"'
 errors:

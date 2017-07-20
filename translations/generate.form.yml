@@ -22,6 +22,12 @@ questions:
   inputs: common.questions.inputs
   routing: 'Would you like to register a route for this form'
   path: 'Enter the route path'
+  max-amount-characters: 'Maximum amount of characters'
+  textfield-width-in-chars: 'Width of the textfield (in characters)'
+  multiselect-size-in-lines: 'Size of multiselect box (in lines)'
+  input-options: 'Input options separated by comma'
+suggestions:
+  description-for-menu: 'A description for the menu entry'
 examples:
   - description: 'Generate an empty form with config file specifying the module name, the class, a form id and the path'
     execution: |
