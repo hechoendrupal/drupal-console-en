@@ -1,0 +1,11 @@
+description: 'Invalidate cache tags.'
+options:
+    tag: 'One or more tags to invalidate.'
+messages:
+    start: 'Invalidating tag(s) %s.'
+    completed: 'Done invalidating tag(s).'
+examples:
+    - description: Invalidate routes
+      execution: drupal cti routes
+    - description: Invalidate a specific node
+      execution: drupal cti node:1 node_list
