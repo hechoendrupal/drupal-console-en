@@ -6,6 +6,7 @@ options:
   service-name: 'Service name'
   class: 'Class name'
   interface: Interface
+  interface-name: 'Interface name'
   services: common.questions.services
   path:  Path
 questions:

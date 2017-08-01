@@ -5,6 +5,7 @@ options:
   latest: 'Default to download most recent version'
   path: 'The path of the contrib project'
   composer: 'Option to point out that the module will be downloaded, managed & installed by Composer'
+  unstable: 'Module unstable'
 questions:
   path: 'Enter the contrib project Path'
 messages:

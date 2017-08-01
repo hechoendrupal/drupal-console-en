@@ -9,6 +9,7 @@ arguments:
   account-name: 'Drupal administrator account name'
   account-mail: 'Drupal administrator account mail'
   account-pass: 'Drupal administrator account password'
+  force: 'Force to reinstall the site'
 questions:
   profile: 'Select Drupal profile to be installed'
   langcode: 'Select language for your Drupal installation'

@@ -7,7 +7,7 @@ options:
     db-pass: 'Database Pass'
     db-prefix: 'Database Prefix'
     db-port: 'Database Port'
-    source-base_path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base-path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
 questions:
     db-type: 'Drupal Database type'
     db-host: 'Database Host'
@@ -16,7 +16,7 @@ questions:
     db-pass: 'Database Pass'
     db-prefix: 'Database Prefix'
     db-port: 'Database Port'
-    source-base_path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base-path:  'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
 messages:
     not-drupal: 'Source database does not contain a recognizable Drupal version.'
     migrations-created: '"%s" migrations were created successfully for "%s".'

@@ -1,6 +1,6 @@
 options:
     env: 'The Environment name'
-    no-debug: 'Switches off debug mode'
+    debug: 'Switches on debug mode'
     learning: 'Generate a verbose code output'
     generate-chain: 'Shows command options and arguments as yaml output to be used in chain command'
     generate-inline: 'Shows command options and arguments as inline command'
