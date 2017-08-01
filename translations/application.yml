@@ -50,6 +50,7 @@ messages:
 errors:
     invalid-command: 'Command "%s", is not a valid command name.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command. Running Drupal Console equivalent "%s" instead.'
 site:
     messages:
         path: 'Site path'
