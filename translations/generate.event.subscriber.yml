@@ -1,7 +1,20 @@
 description: 'Generate an event subscriber'
-questions:
+help: 'The <info>generate:event:subscriber</info> command helps you generate a new event subscriber.'
+welcome: 'Welcome to the Drupal Event Subscriber generator'
+options:
+  module: 'The Module name.'
+  name: 'Service name'
   class: 'Class name'
+  services: 'Load services from the container.'
+  event-name: 'Enter event name'
   callback-name: 'Callback function name to handle event'
+questions:
+  module: 'Enter the module name'
+  name: 'Enter the service name'
+  class: 'Enter the class name'
+  services: 'Enter your service'
+  event-name: 'Enter event name'
+  callback-name: 'Enter the callback function name to handle event'
 examples:
   - description: 'Generate an event subscriber specifying the module name, its name, the class and the events to subscribe'
     execution: |

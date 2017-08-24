@@ -2,19 +2,19 @@ description: 'Generate a plugin mail'
 help: 'The <info>generate:plugin:mail</info> command helps you generate a new Plugin mail.'
 welcome: 'Welcome to the Drupal Plugin Mail generator'
 options:
-  module: common.options.module
+  module: 'The Module name.'
   class: 'Plugin class name'
   label: 'Plugin label'
   plugin-id: 'Plugin id'
-  inputs: common.options.inputs
-  services: common.options.services
+  inputs: 'Create inputs in a form.'
+  services: 'Load services from the container.'
 questions:
-  module: common.questions.module
+  module: 'Enter the module name'
   class: 'Enter the plugin class name'
   label: 'Enter the plugin label'
   plugin-id: 'Enter the plugin id'
   inputs: common.questions.inputs
-  services: common.questions.services
+  services: 'Enter your service'
 examples:
   - description: 'Generate an email plugin specifying the module name, the class, its label and the plugin id'
     execution: |

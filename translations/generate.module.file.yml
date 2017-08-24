@@ -1,6 +1,6 @@
 description: 'Generate a .module file'
 help: 'The <info>generate:module:file</info> command helps you to generate a new .module file'
-welcome: 'Welcome to the Drupal module generator'
+welcome: 'Welcome to the Drupal Module File generator'
 options:
   module: 'The Module name'
 questions:

@@ -2,16 +2,17 @@ description: 'Generate commands for the console.'
 help: 'The <info>generate:command</info> command helps you generate a new command.'
 welcome: 'Welcome to the Drupal Command generator'
 options:
-  module: 'The name of the Module (that will contain the command).'
-  controller-title: 'Controller title.'
+  extension: 'The name of the Extension (that will contain the command).'
   class: 'The Class that describes the command. (Must end with the word ''Command'').'
   name: 'The Command name.'
   container-aware: 'Is the command aware of the drupal site installation when executed'
+  services: 'Load services from the container.'
 questions:
-  module: common.questions.module
+  extension: 'Enter the extension name'
   class: 'Enter the Command Class. (Must end with the word ''Command'').'
   name: 'Enter the Command name.'
   container-aware: 'Is the command aware of the drupal site installation when executed?.'
+  services: 'Enter your service'
 messages:
   title-not-empty: 'Title cannot be empty'
 examples:

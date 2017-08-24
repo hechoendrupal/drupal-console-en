@@ -1,6 +1,6 @@
-description: 'Generate a new "%s"'
-help: 'The <info>"%s"</info> command helps you generate a new "%s"'
-welcome: 'Welcome to the Drupal Form generator'
+description: 'Generate a new form config'
+help: 'The <info>generate:form:config</info> command helps you generate a new form config'
+welcome: 'Welcome to the Drupal Form Config generator'
 options:
   module: 'The Module name.'
   class: 'The form class name'
@@ -39,7 +39,7 @@ suggestions:
 examples:
   - description: 'Generate an empty form with config file specifying the module name, the class, a form id and the path'
     execution: |
-      drupal generate:form  \
+      drupal generate:form:config  \
         --module="modulename"  \
         --class="DefaultForm"  \
         --form-id="default_form"  \
@@ -47,7 +47,7 @@ examples:
         --path="/modulename/form/default"
   - description: 'Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path'
     execution: |
-      drupal generate:form  \
+      drupal generate:form:config  \
         --module="modulename"  \
         --class="DefaultForm"  \
         --form-id="default_form"  \

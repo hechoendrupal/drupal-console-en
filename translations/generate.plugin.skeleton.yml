@@ -1,13 +1,17 @@
 description: 'Generate an implementation of a skeleton plugin'
 help: 'The <info>"%s"</info> command helps you generate a skeleton plugin "%s".'
+welcome: 'Welcome to the Drupal Skeleton Plugin generator'
+
 options:
-  module: common.options.module
+  module: 'The Module name.'
   plugin: 'The Plugin Id.'
   class: 'Plugin class name'
+  services: 'Load services from the container.'
 questions:
-  module: common.questions.module
+  module: 'Enter the module name'
   plugin: 'Enter the Plugin Id'
   class: 'Enter the plugin class name'
+  services: 'Enter your service'
 messages:
   plugin-dont-exist: 'The plugin "%s" does not exist.'
   plugin-generator-implemented: 'Plugin "%s" already has an advanced command generator, please use "%s"'

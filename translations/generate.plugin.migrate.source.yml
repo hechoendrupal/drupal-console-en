@@ -2,7 +2,7 @@ description: 'Generate a migrate source plugin'
 help: 'The <info>generate:migrate:plugin:source</info> command helps you generate a new migrate source plugin.'
 welcome: 'Welcome to the Drupal Migrate Source Plugin generator'
 options:
-  module: common.options.module
+  module: 'The Module name.'
   class: 'Plugin class name'
   plugin-id: 'Plugin id'
   table: 'Table to query'
@@ -10,15 +10,14 @@ options:
   group-by: 'Field to group results by'
   fields: 'Fields to export'
 questions:
-  module: common.questions.module
+  module: 'Enter the module name'
   class: 'Enter the plugin class name'
   plugin-id: 'Enter the plugin id'
   table: 'Enter the table name'
   alias: 'Enter the alias for the table'
   group-by: 'Enter a field to group by if desired'
-  fields:
-    id: 'Enter the field id or press <info>enter</enter> if done'
-    description: 'Enter the field description'
+  id: 'Enter the field id or press <info>enter</enter> if done'
+  description: 'Enter the field description'
 examples:
   - description: 'Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias'
     execution: |

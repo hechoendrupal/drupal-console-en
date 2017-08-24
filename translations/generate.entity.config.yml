@@ -1,14 +1,15 @@
 description: 'Generate a new config entity'
-help: ''
+help: 'The <info>generate:config:entity</info> command helps you generate a new config entity.'
+welcome: 'Welcome to the Drupal Config Entity generator'
 options:
-  module: common.options.module
+  module: 'The Module name.'
   entity-class: 'The config entity class'
   entity-name: 'The config entity name'
   label: 'The label'
   bundle-of: 'Acts as bundle for content entities'
   base-path: 'The base-path for the config entity routes'
 questions:
-  module: common.questions.module
+  module: 'Enter the module name'
   entity-class: 'Enter the class of your new config entity'
   entity-name: 'Enter the name of your new config entity'
   label: 'Enter the label of your new config entity'

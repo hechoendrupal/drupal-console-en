@@ -2,21 +2,21 @@ description: 'Generate service'
 help: 'The <info>generate:service</info> command helps you generate a new service.'
 welcome: 'Welcome to the Drupal service generator'
 options:
-  module: common.options.module
+  module: 'The Module name.'
   service-name: 'Service name'
   class: 'Class name'
-  interface: Interface
+  interface: 'Interface'
   interface-name: 'Interface name'
-  services: common.questions.services
-  path:  Path
+  services: 'Load services from the container.'
+  path-service:  'Path'
 questions:
-  module: common.questions.module
+  module: 'Enter the module name'
   service-name: 'Enter the service name'
   class: 'Enter the Class name'
   interface: 'Create an interface'
   interface-name: 'Enter the interface name'
-  services: common.options.services
-  path: 'Enter the path for the services'
+  services: 'Enter your service'
+  path-service: 'Enter the path for the services'
 messages:
   service-already-taken: 'The service name has been already taken in module "%s"'
 examples:

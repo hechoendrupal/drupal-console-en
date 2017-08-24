@@ -1,8 +1,11 @@
 description: 'Generate an implementation of hook_update_N()'
 help: 'The <info>"%s"</info> command helps you generate a hook update N "%s"'
+welcome: 'Welcome to the Drupal Update generator'
 options:
+  module: 'The Module name.'
   update-n: 'Update Number'
 questions:
+  module: 'Enter the module name'
   update-n: 'Please provide the Update N to be implemeted'
 messages:
   wrong-update-n: 'The update number "%s" is invalid'
