@@ -5,12 +5,14 @@ options:
   extension: 'The name of the Extension (that will contain the command).'
   class: 'The Class that describes the command. (Must end with the word ''Command'').'
   name: 'The Command name.'
+  interact: 'Add interact method.'
   container-aware: 'Is the command aware of the drupal site installation when executed'
   services: 'Load services from the container.'
 questions:
   extension: 'Enter the extension name'
   class: 'Enter the Command Class. (Must end with the word ''Command'').'
   name: 'Enter the Command name.'
+  interact: 'Do you want to add the interact method ?'
   container-aware: 'Is the command aware of the drupal site installation when executed?.'
   services: 'Enter your service'
 messages:
