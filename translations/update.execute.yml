@@ -1,12 +1,17 @@
 description: 'Execute a specific Update N function in a module, or execute all'
-options:
+arguments:
+  module: 'Module name'
   update-n: 'Specific Update N function to be executed'
 messages:
   no-module-updates: 'There aren''t updates available for module "%s"'
   executing-update: 'Executing update function "%s" of module "%s"'
   module-update-function-not-found: 'Module "%s" doesn''t have a function update for "%s"'
   executing-required-previous-updates: 'Executing required previous updates'
+  no-pending-updates: 'There aren''t updates available'
 examples:
-  - description: 'Update all entities'
+  - description: 'Execute all updates'
     execution: |
       drupal update:execute
+  - description: 'Execute updates for system module'
+    execution: |
+      drupal update:execute system
