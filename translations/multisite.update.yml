@@ -1,0 +1,22 @@
+description: "Update the files for a multisite installed."
+help: "The <info>multisite:new</info> command assists in setting up new multisite installs by creating the needed subdirectory and files, and can optionally copy an existing 'default' installation."
+options:
+  uri: "Name of old directory under 'sites' which should be updated."
+  directory: "Name of new directory for multisite installed. (You could create subdir separated by '/')"
+questions:
+  uri: "Choice the multisite to update"
+  directory: "Enter the new name (You could use subdir separated by '/')"
+errors:
+  invalid-uri: "The --uri=%s does not exist"
+  uri-dir-empty: "You must specify a old multisite directory to update."
+  new-dir-empty: "You must specify a new name to update multisite."
+  subdir-exists: 'The "sites/%s" directory already exists.'
+  mkdir-fail: 'Unable to create "sites/%s". Please check the sites directory permissions and try again.'
+  copy-fail: 'Unable to copy "%s" to "%s". Please check permissions and try again.'
+  write-fail: 'Unable to write to the file "%s". Please check the file permissions and try again.'
+messages:
+  move-settings: 'The file settings.php was successfully movied to "sites/%s".'
+examples:
+  - description: 'Update the files for a multisite installed specifying old path and new path'
+    execution: |
+      drupal multisite:update
