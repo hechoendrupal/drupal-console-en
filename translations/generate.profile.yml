@@ -4,6 +4,7 @@ welcome: 'Welcome to the Drupal installation profile generator'
 options:
   profile: 'The profile name'
   machine-name: 'The machine name (lowercase and underscore only)'
+  base-path: 'The path of the profile'
   description: 'Profile description'
   core: 'Core version'
   dependencies: 'Module dependencies separated by commas (i.e. context, panels)'
@@ -12,6 +13,7 @@ options:
 questions:
   profile: 'Enter the name of the new profile'
   machine-name: 'Enter the machine name'
+  base-path: 'Enter the profile Path'
   description: 'Enter the description'
   core: 'Enter Drupal Core version'
   dependencies: 'Would you like to add module dependencies?'
