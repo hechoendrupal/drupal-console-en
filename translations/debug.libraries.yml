@@ -1,13 +1,17 @@
 description: 'Displays libraries available in application'
 options:
-  name: 'Enter Libraries Name'
+  name: 'Extension or Library Name'
 messages:
-   name: 'Extension with Libraries'
-   info: 'Libraries Information'
+   extension: 'Extension'
+   library: 'Library'
+   info: 'Library Information'
 examples:
-    - description: 'List all available libraries'
+    - description: 'List all extensions with libraries'
       execution: |
         drupal debug:libraries
-    - description: 'List block library information'
+    - description: 'List block extension libraries'
       execution: |
         drupal debug:libraries block
+    - description: 'List block/drupal.block library'
+      execution: |
+        drupal debug:libraries block/drupal.block
