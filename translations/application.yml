@@ -29,6 +29,8 @@ messages:
     files:
         generated: 'Generated or updated files'
         copied: 'Copied files'
+    lines-code: 'Generated lines of code: %s'
+    path: 'Generation path'
     learning:
         route: "In order to to create pages it is necessary to define routes for them.\nA route maps a URL path to a controller. It defines what function\nor method will be called when a URL is accessed.\nIf the user accesses http://drupal8.dev/{{ route.path }}, the routing\nsystem will look for a route with that path. In this case it will find a\nmatch, and execute the _controller callback. In this case the callback is\ndefined as a classname\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\nand a method (\"{{ route.method }}\")."
     autocomplete: |
