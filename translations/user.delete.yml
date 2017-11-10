@@ -2,10 +2,10 @@ description: 'Delete users from the application'
 help: 'The <info>user:delete</info> command helps you delete users.'
 welcome: 'Welcome to the Drupal user delete'
 options:
-  user-id: 'User id to be deleted'
+  user: 'User name/id to be deleted'
   roles: 'Users with the listed roles to be deleted'
 questions:
-  user-id: 'User id to be deleted (empty to skip)'
+  user: 'User name/id to be deleted (empty to skip)'
   roles: 'Select role(s) associated with users to be deleted'
 messages:
   user-id: 'User ID'
@@ -13,15 +13,17 @@ messages:
   user-deleted: 'User "%s" was deleted successfully'
   users-deleted: '"%s" users were deleted successfully'
 errors:
-  invalid-user-id: 'User id "%s" is invalid'
-  invalid-user: 'User id "%s" is invalid'
+  invalid-user: 'User name/id "%s" is invalid'
 examples:
-  - description: 'Delete user with the following the id and the user role'
+  - description: 'Delete user with the id number 2'
     execution: |
       drupal user:delete  \
-        --user-id="2"
-        --roles='authenticated'
-  - description: 'Delete user with the following id'
+        --user="2"
+  - description: 'Delete user with the username "jmolivas"'
     execution: |
       drupal user:delete  \
-        --user-id="3"
+        --user="jmolivas"
+  - description: 'Delete users with the role "authenticated"'
+    execution: |
+      drupal user:delete  \
+        --role="authenticated"

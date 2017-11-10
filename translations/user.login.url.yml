@@ -1,11 +1,14 @@
 description: 'Returns a one-time user login url.'
 options:
-  user-id: 'User ID.'
+  user: 'User name/id.'
 messages:
-  url: 'One-time login for "%s": "%s"'
+  url: 'One-time login for "%s"'
+questions:
+  user: 'Enter User name/id'
 errors:
-  invalid-user: 'Cannot load user entity (User ID: "%s").'
+  invalid-user: 'Cannot load user entity using: %s".'
 examples:
-  - description: 'Get one time login url for user id 1'
-    execution: |
-      drupal user:login:url  1
+  - description: 'Get one time login url for user id 10'
+    execution: drupal user:login:url  10
+  - description: 'Get one time login url for username jmolivas'
+    execution: drupal user:login:url jmolivas
