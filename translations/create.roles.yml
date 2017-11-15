@@ -1,0 +1,19 @@
+description: 'Create dummy roles for your Drupal 8 application.'
+help: 'The <info>create:roles</info> command helps you create dummy roles.'
+welcome: 'Welcome to the Drupal roles generator'
+options:
+    limit: 'How many roles would you like to create'
+questions:
+    limit: 'Enter how many roles would you like to create'
+messages:
+    role-id: 'Role Id'
+    role-name: 'Rolename'
+    created-roles: 'Created "%s" roles successfully'
+    error-created-role: 'Created "%s" role unsuccessfully'
+examples:
+    - description: 'Provide roles.'
+      execution: drupal create:roles
+    - description: 'Provide the number of roles to create'
+      execution: |
+        drupal create:roles
+

@@ -1,0 +1,10 @@
+description: 'Displays current roles for the application'
+help: 'The <info>debug:roles</info> command helps you get current roles.'
+welcome: 'Welcome to the Drupal roles debug'
+messages:
+    role-id: 'Role ID'
+    role-name: 'Role Name'
+examples:
+    - description: 'Roles list on the site'
+      execution: |
+        drupal debug:roles
