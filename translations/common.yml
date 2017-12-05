@@ -22,6 +22,9 @@ questions:
         confirm: 'Do you want to load services from the container'
         message: "\nType the service name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
         name: 'Enter your service'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'Do you want to generate a form structure?'
         label: 'Input label'
