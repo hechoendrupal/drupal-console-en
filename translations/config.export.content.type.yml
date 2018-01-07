@@ -8,6 +8,8 @@ messages:
     content-type-exported: 'Exporting content type'
 options:
     optional-config: 'Export content type as an optional YAML configuration in your module'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
 examples:
     - description: 'Provide a content type  and module name'
       execution: |
