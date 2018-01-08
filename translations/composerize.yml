@@ -1,0 +1,13 @@
+description: 'Converts Drupal codebase to composer.'
+options:
+  hide-packages: 'Hide display of packages.'
+  include-version: 'Include version on suggested result command.'
+messages:
+  name: 'Name'
+  version: 'Version'
+  dependencies: 'Dependencies'
+  module: 'Module(s) detected'
+  theme: 'Theme(s) detected'
+  from: 'From your project root:'
+  execute: 'Execute this command:'
+  ignore: 'To ignore third party libraries, modules and themes add to your .gitignore file:'
