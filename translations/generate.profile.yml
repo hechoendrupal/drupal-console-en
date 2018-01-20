@@ -23,7 +23,7 @@ suggestions:
   my-useful-profile: 'My Useful Profile'
   my-kick-ass-distribution: 'My Kick-ass Distribution'
 warnings:
-  module-unavailable: 'Warning: The following modules are not already available in your local environment "%s"'
+  module-unavailable: 'Warning: The following modules are not available in your local environment "%s"'
 errors:
   directory-exists: 'The target directory "%s" is not empty.'
 examples:
