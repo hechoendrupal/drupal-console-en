@@ -6,6 +6,7 @@ options:
   class: 'The Class that describes the command. (Must end with the word ''Command'').'
   name: 'The Command name.'
   interact: 'Add interact method.'
+  initialize: 'Add initialize method.'
   container-aware: 'Is the command aware of the drupal site installation when executed'
   services: 'Load services from the container.'
 questions:
@@ -13,6 +14,7 @@ questions:
   class: 'Enter the Command Class. (Must end with the word ''Command'').'
   name: 'Enter the Command name.'
   interact: 'Do you want to add the interact method ?'
+  initialize: 'Do you want to add the initialize method ?'
   container-aware: 'Is the command aware of the drupal site installation when executed?.'
   services: 'Enter your service'
 messages:
