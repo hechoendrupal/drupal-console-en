@@ -39,6 +39,7 @@ questions:
         weight: 'Weight for input item'
         title: 'Title'
         fieldset: 'Fieldset'
+        new-field: 'Enter a new field properties'
 errors:
     module-dependency: 'Missing module dependency "%s" is not installed. Try module:install to install it.'
     class-name-empty: 'The Class name can not be empty'
@@ -53,3 +54,4 @@ messages:
     drupal-core: 'Drupal Core'
     move-phar: 'Accessing console from anywhere on your system'
     quick-start: 'Download, install and serve Drupal 8'
+    available-field-types: 'Available types: <comment>%s</comment>'
