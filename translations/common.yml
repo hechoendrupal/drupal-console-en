@@ -13,8 +13,8 @@ questions:
     module: 'Enter the module name'
     extension: 'Enter the extension name'
     extension-type: 'Enter the extension type'
-    confirm: 'Do you confirm generation?'
-    canceled: 'Command generation canceled.'
+    confirm: 'Do you want proceed with the operation?'
+    canceled: 'The operation was cancelled.'
     events:
         message: "\nType the event name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
         name: 'Enter event name'
