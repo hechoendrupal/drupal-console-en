@@ -1,4 +1,5 @@
 description: 'List available chain files.'
 messages:
     directory: 'Directory'
-    file: 'Chain file name.'
+    file: 'File name.'
+    command: 'Command name.'
