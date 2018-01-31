@@ -4,7 +4,7 @@ arguments:
 options:
   absolute: 'Return theme absolute path'
 messages:
-  invalid-theme-name: 'Invalid theme name: %s'
+  invalid-theme-name: 'Invalid theme name: "%s"'
 examples:
   - description: 'Get the path of mytheme'
     execution: |

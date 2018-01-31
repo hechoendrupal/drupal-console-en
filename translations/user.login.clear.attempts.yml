@@ -7,5 +7,5 @@ questions:
 messages:
     successful: 'Login attempts were successfully cleared for user: "%s".'
 errors:
-    invalid-user: 'Cannot load user entity using: %s".'
+    invalid-user: 'Cannot load user entity using: "%s".'
     no-flood: 'No flood table on the system.'

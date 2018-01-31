@@ -10,9 +10,9 @@ questions:
   entity-definition-id: 'Enter the  Entity definitin id'
   entity-id: 'Enter the  Entity ID to be deleted'
 messages:
-  confirm-delete-all: 'Do you want to delete all entities of type %s (%d)?'
-  deleted: 'Entity %s with id %s was deleted successfully'
-  deleted-all: 'All entities of type %s (%d) were deleted.'
+  confirm-delete-all: 'Do you want to delete all entities of type "%s" ("%d")?'
+  deleted: 'Entity "%s" with id "%s" was deleted successfully'
+  deleted-all: 'All entities of type "%s" ("%d") were deleted.'
 examples:
   - description: 'Delete entity type content using node id'
     execution: |

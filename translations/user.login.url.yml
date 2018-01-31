@@ -6,7 +6,7 @@ messages:
 questions:
   user: 'Enter User name/id'
 errors:
-  invalid-user: 'Cannot load user entity using: %s".'
+  invalid-user: 'Cannot load user entity using: "%s".'
 examples:
   - description: 'Get one time login url for user id 10'
     execution: drupal user:login:url  10

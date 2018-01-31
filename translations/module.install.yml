@@ -26,9 +26,9 @@ messages:
   installing: 'Installing module(s) "%s"'
   composer: 'The module was installed successfully with Composer'
   error-creating-folder: 'Error creating folder "%s", please check your permissions'
-  download-with-composer: 'Module %s was downloaded with Composer.'
-  not-installed-with-composer: 'Module %s seems not to be installed with Composer. Halting.'
-  invalid-name: 'Invalid module name: %s'
+  download-with-composer: 'Module "%s" was downloaded with Composer.'
+  not-installed-with-composer: 'Module "%s" seems not to be installed with Composer. Halting.'
+  invalid-name: 'Invalid module name: "%s"'
 examples:
   - description: 'Install module specifying the module name'
     execution: |

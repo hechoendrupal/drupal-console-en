@@ -8,8 +8,8 @@ questions:
   packages: 'Enter package name to import'
 messages:
   no-packages: 'No packages available.'
-  not-available: 'Package %s, not available.'
-  importing: 'Importing package %s.'
-  uninstall: 'Package %s already installed.'
-  reverting: 'Reverting package %s.'
+  not-available: 'Package "%s", not available.'
+  importing: 'Importing package "%s".'
+  uninstall: 'Package "%s" already installed.'
+  reverting: 'Reverting package "%s".'
   nothing: 'Nothing to import.'

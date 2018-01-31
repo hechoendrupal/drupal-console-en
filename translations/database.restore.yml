@@ -1,12 +1,12 @@
-description: "Restore structure and contents of a database."
+description: 'Restore structure and contents of a database.'
 arguments:
-  database: "Database key from settings.php"
+  database: 'Database key from settings.php'
 options:
   file: 'The filename for your database backup file. If using a .sql.gz file, the gunzip command needs to be installed.'
 messages:
-    success: "Database imported from:"
-    no-file: "Missing file option"
-help: "Restore structure and contents of a database."
+    success: 'Database imported from:'
+    no-file: 'Missing file option'
+help: 'Restore structure and contents of a database.'
 examples:
     - description: 'Restore the database file dump to the database default or another one specified'
       execution: |

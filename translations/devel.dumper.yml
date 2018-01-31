@@ -4,4 +4,4 @@ messages:
   devel-must-be-installed: 'Devel must be installed'
   select-debug-dumper: 'Select a Debug Dumper'
   dumper-not-exist: 'Dumper does not exist'
-  devel-dumper-set: 'Devel Dumper set to: %s'
+  devel-dumper-set: 'Devel Dumper set to: "%s"'

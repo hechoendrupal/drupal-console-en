@@ -18,7 +18,7 @@ messages:
     method: 'Method'
     return: 'Return'
 errors:
-    method-not-exists: "This method doesn't exists in this service."
+    method-not-exists: 'This method doesn''t exists in this service.'
 examples:
     - description: 'Displays the views.views_data_helper services'
       execution: |
