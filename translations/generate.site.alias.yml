@@ -10,6 +10,7 @@ options:
   user: 'The username to use when connecting via ssh.'
   extra-options: 'Used only when the target requires extra options, such as alternative authentication method and/or alternative identity file.'
   site-uri: 'Drupal uri (for multi-sites).'
+  directory: 'Directory to store the generated site alias.'
 questions:
   name: 'Select or enter the site name'
   environment: 'Enter the environment name (dev, test, prod, qa, dev.uri, test.uri, etc...)'
@@ -20,3 +21,4 @@ questions:
   user: 'Enter the username to use when connecting via ssh.'
   extra-options: 'Select or enter a valid extra option.'
   site-uri: 'Enter the Drupal uri (for multi-sites).'
+  directory: 'Select the directory to store the generated site alias.'

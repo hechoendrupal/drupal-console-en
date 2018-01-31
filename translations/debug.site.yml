@@ -4,7 +4,10 @@ messages:
   site: 'Site'
   host: 'Host'
   root: 'Root'
-  not-sites: 'No sites defined'
+  invalid-sites: 'No sites defined.'
+  invalid-sites-using: |
+    Using a site alias requires local configuration, more info at:
+       https://docs.drupalconsole.com/en/alias/using-site-alias.html
   invalid-site: 'Invalid site name'
   private-key: 'Error with private key'
   connect-error: 'Error connecting to remote machine'
@@ -12,6 +15,6 @@ options:
   target: 'Target'
   property: 'Property'
 examples:
-    - description: ''
+    - description: 'List all known local and remote sites.'
       execution: |
         drupal debug:site
