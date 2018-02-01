@@ -6,8 +6,8 @@ errors:
 
 examples:
     - description: 'List all configuration object names.'
-      execution: 'drupal config:debug'
+      execution: 'drupal debug:config'
     - description: 'Display system site configurations values.'
-      execution: 'drupal config:debug system.site'
+      execution: 'drupal debug:config system.site'
     - description: 'List all system configuration names.'
-      execution: 'drupal config:debug | grep system'
+      execution: 'drupal debug:config | grep system'

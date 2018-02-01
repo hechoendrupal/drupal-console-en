@@ -1,5 +1,5 @@
 description: 'Debug entities available in the system'
-help: 'The <info>entity:debug</info> command helps get a list of entities.'
+help: 'The <info>debug:entity</info> command helps get a list of entities.'
 arguments:
 questions:
 messages:

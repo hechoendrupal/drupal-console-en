@@ -1,5 +1,5 @@
 description: 'Show all tables in a given database.'
-help: 'The <info>database:table:debug</info> command helps you debug database tables.'
+help: 'The <info>debug:database:table</info> command helps you debug database tables.'
 arguments:
   table: 'Table to debug'
 options:

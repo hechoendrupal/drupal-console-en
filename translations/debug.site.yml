@@ -1,5 +1,5 @@
 description: 'List all known local and remote sites.'
-help: 'The <info>site:debug</info> list all known local and remote sites.'
+help: 'The <info>debug:site</info> list all known local and remote sites.'
 messages:
   site: 'Site'
   host: 'Host'

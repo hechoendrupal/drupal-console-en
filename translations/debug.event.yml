@@ -1,12 +1,12 @@
 description: 'Displays current events '
-help: 'The <info>event:debug</info> command helps you debug events.'
+help: 'The <info>debug:event</info> command helps you debug events.'
 arguments:
   event: 'Event to debug'
 messages:
   event: Event Name
   class: 'Class'
   method: 'Method'
-  no-events: 'This event does not exist, try to execute command: event:debug'
+  no-events: 'This event does not exist, try to execute command: debug:event'
 examples:
     - description: 'List all the events that could be debugged'
       execution: |

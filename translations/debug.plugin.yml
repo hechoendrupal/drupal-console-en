@@ -3,13 +3,13 @@ help: |
   Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
 
   List all plugin types:
-  <info>drupal plugin:debug</info>
+  <info>drupal debug:plugin</info>
 
   List all instances of the image effect plugin type:
-  <info>drupal plugin:debug image.effect</info>
+  <info>drupal debug:plugin image.effect</info>
 
   Show the definition for the image convert plugin:
-  <info>drupal plugin:debug image.effect image_convert</info>
+  <info>drupal debug:plugin image.effect image_convert</info>
 
   <comment>NOTE: Only plugin types exposed through services are supported.</comment> When developing a custom plugin type, expose it as a service by adding it to modulename.services.yml with the name "plugin.manager.PLUGIN_TYPE".
 arguments:

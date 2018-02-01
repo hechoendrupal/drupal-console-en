@@ -5,8 +5,8 @@ messages:
   name: 'Extensions with breakpoints'
 examples:
     - description: 'Provide a group name.'
-      execution: drupal breakpoints:debug bartik
+      execution: drupal debug:breakpoints bartik
 examples:
-    - description: 'Displays the breakpoints availables on the site'
+    - description: 'Displays the breakpoints available on the site'
       execution: |
         drupal debug:breakpoints
