@@ -5,7 +5,9 @@ options:
   module: 'The Module name.'
   class: 'Ajax Class name'
   method: 'Custom ajax method'
+  js-name: 'Custom javascript name'
 questions:
   module: 'Enter the module name'
   class: 'Enter the Ajax class name'
   method: 'Enter the render method name'
+  js-name: 'Enter a custom javascript name'
