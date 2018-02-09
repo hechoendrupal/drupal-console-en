@@ -11,7 +11,7 @@ questions:
   breakpoint-media-query: 'Enter breakpoint media query'
   breakpoint-weight: 'Enter breakpoint weight'
   breakpoint-multipliers: 'Enter breakpoint multipliers'
-  breakpoint-add: 'Do you want to add another breakpoint'
+  breakpoint-add: 'Do you want to add another breakpoint?'
 examples:
   - description: 'Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers'
     execution: |

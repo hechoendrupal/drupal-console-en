@@ -14,7 +14,7 @@ questions:
   method: 'Enter the action method name'
   path: 'Enter the route path'
   services: 'Enter your service'
-  test: 'Do you want to generate a unit test class'
+  test: 'Do you want to generate a unit test class?'
 messages:
   title-empty: 'Title must contain a value (you must enter at least one method)'
   title-already-added: 'Title was already added'

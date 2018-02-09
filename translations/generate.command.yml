@@ -7,7 +7,7 @@ options:
   name: 'The Command name.'
   interact: 'Add interact method.'
   initialize: 'Add initialize method.'
-  container-aware: 'Is the command aware of the drupal site installation when executed'
+  container-aware: 'Is the command aware of the drupal site installation when executed?'
   services: 'Load services from the container.'
   generator: 'Add a Generator class for this command.'
 questions:
@@ -16,7 +16,7 @@ questions:
   name: 'Enter the Command name.'
   interact: 'Do you want to add the interact method?'
   initialize: 'Do you want to add the initialize method?'
-  container-aware: 'Is the command aware of the drupal site installation when executed?.'
+  container-aware: 'Is the command aware of the drupal site installation when executed?'
   services: 'Enter your service'
   generator: 'Do you want to add a Generator class?.'
 messages:

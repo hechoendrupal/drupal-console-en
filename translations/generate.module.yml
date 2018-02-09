@@ -23,11 +23,11 @@ questions:
   package: 'Enter package name'
   features-support: 'Define module as feature'
   features-bundle: 'Enter Features bundle name'
-  module-file: 'Do you want to generate a .module file'
-  composer: 'Do you want to add a composer.json file to your module'
-  dependencies: 'Would you like to add module dependencies'
-  test: 'Do you want to generate a unit test class'
-  twigtemplate: 'Do you want to generate a themeable template'
+  module-file: 'Do you want to generate a .module file?'
+  composer: 'Do you want to add a composer.json file to your module?'
+  dependencies: 'Would you like to add module dependencies?'
+  test: 'Do you want to generate a unit test class?'
+  twigtemplate: 'Do you want to generate a themeable template?'
 suggestions:
   my-awesome-module: 'My Awesome Module'
 warnings:

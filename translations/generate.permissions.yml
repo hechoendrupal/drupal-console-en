@@ -9,7 +9,7 @@ questions:
   title: 'Enter a title for the permission'
   description: 'Enter a description for the permission'
   restrict-access: 'Restrict Access'
-  add: 'Do you want to add another permission'
+  add: 'Do you want to add another permission?'
 suggestions:
   access-content: 'Access content'
   allow-access-content: 'Allow access to my content'
