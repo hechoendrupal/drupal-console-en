@@ -10,7 +10,7 @@ options:
   plugin-states: 'Plugin Rest Resource States'
 questions:
   module: 'Enter the module name'
-  class: 'Enter the plugin rest resource name'
+  class: 'Enter the plugin rest resource class name'
   plugin-id: 'Enter the plugin rest resource id'
   plugin-label: 'Enter the plugin rest resource label'
   plugin-url: 'Enter the plugin rest resource url'
