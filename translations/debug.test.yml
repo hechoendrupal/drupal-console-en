@@ -1,5 +1,5 @@
 description: 'List Test Units available for the application.'
-help: 'Update the console command to the latest version.'
+help: 'List Test Units available for the application.'
 arguments:
     test-class: 'Test Class'
 options:
