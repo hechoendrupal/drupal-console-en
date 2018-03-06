@@ -14,7 +14,7 @@ questions:
   plugin-id: 'Enter the plugin id'
   field-type: 'Enter the field type the plugin can be used with'
 examples:
-  - description: 'Generate a a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type'
+  - description: 'Generate a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type'
     execution: |
       drupal generate:plugin:fieldformatter  \
         --module="modulename"  \
