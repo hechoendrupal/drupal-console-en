@@ -9,7 +9,7 @@ messages:
     role-id: 'Role Id'
     role-name: 'Rolename'
     created-roles: 'Created "%s" roles successfully'
-    error-created-role: 'Created "%s" role unsuccessfully'
+    error: 'Error creating roles: "%s"'
 examples:
     - description: 'Provide roles.'
       execution: drupal create:roles

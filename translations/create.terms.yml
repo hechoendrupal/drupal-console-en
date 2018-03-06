@@ -16,6 +16,7 @@ messages:
     name: 'Name'
     invalid-vocabularies: 'Vocabulary(s) "%s" are invalid'
     created-terms: 'Created "%s" terms successfully'
+    error: 'Error creating terms: "%s"'
 examples:
     - description: 'Provide the vocabulary term name.'
       execution: drupal create:terms vocabulary

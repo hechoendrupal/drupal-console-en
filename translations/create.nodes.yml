@@ -26,6 +26,7 @@ messages:
     created: 'Created Time'
     invalid-content-types: 'Content types "%s" are invalid'
     created-nodes: 'Created "%s" nodes successfully'
+    error: 'Error creating nodes: "%s"'
 examples:
     - description: 'Provide the content type name.'
       execution: drupal create:nodes content-name

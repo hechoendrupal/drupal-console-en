@@ -28,6 +28,7 @@ messages:
     created: 'Created Time'
     invalid-content-types: 'Content types "%s" are invalid'
     created-comments: 'Created "%s" comments successfully'
+    error: 'Error creating comments: "%s"'
 examples:
     - description: 'Provide the node id where the comments will be generated.'
       execution: drupal create:comments  node-id
