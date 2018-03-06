@@ -17,6 +17,8 @@ arguments:
     id: 'Plugin ID'
 errors:
     plugin-type-not-found: 'Plugin type "%s" not found. No service available for that type.'
+messages:
+    plugin-info: 'Plugin additional information'
 table-headers:
     plugin-type-name: 'Plugin type'
     plugin-type-class: 'Plugin manager class'
@@ -24,6 +26,7 @@ table-headers:
     plugin-class: 'Plugin class'
     definition-key: 'Key'
     definition-value: 'Value'
+    setting: 'Setting'
 examples:
     - description: 'Displays a list with all the plugins on the current site'
       execution: |
