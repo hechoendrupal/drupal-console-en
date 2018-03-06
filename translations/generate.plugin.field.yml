@@ -18,7 +18,7 @@ options:
   default-formatter: 'Default field formatter of field type plugin'
 questions:
   module: 'Enter the module name'
-  type-class: 'Field type plugin class name'
+  type-class: 'Enter field type plugin class name'
   type-label: 'Enter the field type plugin label'
   type-plugin-id: 'Enter the field type plugin id'
   type-description: 'Enter the field type plugin description'
