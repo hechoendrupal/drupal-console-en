@@ -1,5 +1,5 @@
 description: 'List registered features.'
-help: ''
+help: 'List registered features.'
 arguments:
   bundle: 'Bundle name'
 messages:
