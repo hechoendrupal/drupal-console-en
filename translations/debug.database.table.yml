@@ -10,9 +10,9 @@ messages:
   column: 'Column'
   type: 'Type'
 examples:
-    - description: 'Show all tables on a database'
+    - description: 'Show all tables in a database'
       execution: |
         drupal debug:database:table
-    - description: 'Show fields on the node table or another specified on the argument'
+    - description: 'Show fields in the node table or another specified in the argument'
       execution: |
         drupal debug:database:table node
