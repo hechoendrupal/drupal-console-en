@@ -1,0 +1,38 @@
+description: 'Add support and required config to work with an .env file'
+messages:
+  template-env: |
+    This file is a "template" of which env vars need to be defined
+    for your application, use only on development stages.
+    Create real environment variables when deploying to production.
+  load-from-env: |
+    If not using real environment variables.
+    Make sure you add the dependency using composer
+
+    Drupal 8.5 and up versions `composer require symfony/dotenv`
+    if (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {
+      $dotenv = new \Symfony\Component\Dotenv\Dotenv(dirname(DRUPAL_ROOT));
+      $dotenv->load();
+    }
+
+    Drupal 8.4 and minor versions `composer require vlucas/phpdotenv`
+    if (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {
+      $dotenv = new \Dotenv\Dotenv(dirname(DRUPAL_ROOT));
+      $dotenv->load();
+    }
+  load-settings: |
+    # Load key/value settings
+    $settings_drupal = array_filter(
+        $_SERVER,
+        function($key) {
+            return  strpos($key, 'SETTINGS_') === 0;
+        },
+        ARRAY_FILTER_USE_KEY
+    );
+
+    # Set key/value settings
+    foreach ($settings_drupal as $name => $value) {
+      if (substr($name, 0, 9) === 'SETTINGS_') {
+        $key = strtolower(substr($name, 9));
+        $settings['settings'][$key] = $value;
+      }
+    }
