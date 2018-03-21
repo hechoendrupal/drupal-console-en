@@ -1,6 +1,8 @@
 description: 'List configuration objects names and single configuration object.'
 arguments:
     name: 'Configuration object name, for example "system.site".'
+options:
+    show-overridden: 'Show overridden configurations.'
 errors:
     not-exists: 'The configuration "%s" does not exist.'
 
@@ -11,3 +13,5 @@ examples:
       execution: 'drupal debug:config system.site'
     - description: 'List all system configuration names.'
       execution: 'drupal debug:config | grep system'
+    - description: 'List all configuration including overridden values.'
+      execution: 'drupal debug:config --show-overridden'
