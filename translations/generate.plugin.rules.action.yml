@@ -1,0 +1,41 @@
+description: 'Generate a plugin rule action'
+help: 'The <info>generate:plugin:rulesaction</info> command helps you generate a new plugin rule action.'
+welcome: 'Welcome to the Drupal Plugin Rules Action generator'
+options:
+  module: common.options.module
+  class: 'Plugin class'
+  label: 'Plugin label'
+  plugin-id: 'Plugin id'
+  category: 'Plugin category'
+  context: 'Plugin context'
+questions:
+  module: common.questions.module
+  class: 'Enter plugin class'
+  label: 'Enter the plugin label'
+  plugin-id: 'Enter the plugin id'
+  category: 'Enter plugin category'
+  context: 'Would you like to add a context?'
+  another-context: 'Would you like to add another context?'
+  context-name: 'Enter context name'
+  context-type: 'Enter context type (entity, entity:user_role, entity:user, language, any, string and etc.)'
+  context-label: 'Enter context label'
+  context-description: 'Enter context description'
+examples:
+  - description: 'Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
+    execution: |
+      drupal generate:plugin:rules:action \
+        --module="modulename" \
+        --class="DefaultAction" \
+        --label="Default Action" \
+        --plugin-id="default_action" \
+        --category="Action category" \
+        --context='"name":"user", "type":"entity:user", "label":"Context label", "description":"Context description"'
+  - description: 'Generate a entity rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
+    execution: |
+      drupal generate:plugin:rules:action \
+        --module="modulename" \
+        --class="DefaultAction" \
+        --label="Default Action" \
+        --plugin-id="default_action" \
+        --category="Action category" \
+        --context='"entity":"node", "type":"entity", "label":"Context label", "description":"Context description"'

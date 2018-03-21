@@ -31,7 +31,7 @@ questions:
 suggestions:
   my-awesome-module: 'My Awesome Module'
 warnings:
-  module-unavailable: 'Warning The following modules are not available in your local environment "%s"'
+  module-unavailable: 'Warning The following modules are not available "%s"'
 errors:
   invalid-core: 'The core version "%s" is invalid.'
   directory-exists: 'The target directory "%s" is not empty.'
