@@ -3,6 +3,7 @@ options:
   destination: 'Destination directory to copy files'
   override: 'Override configurations files flag'
   autocomplete: 'Autocomplete tool files flag.'
+  site: 'Use local site as destination.'
 questions:
   destination: 'Select destination to copy configuration'
   autocomplete: 'Generate autocomplete files'
