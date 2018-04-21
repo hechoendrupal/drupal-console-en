@@ -1,0 +1,30 @@
+description: 'Generate a validation constraint plugin.'
+help: 'The <info>generate:plugin:validationconstraint</info> command helps you generate a new validation constraint plugin.'
+welcome: 'Welcome to the Drupal Validation Constraint Plugin generator'
+options:
+  class: 'Plugin class name'
+  label: 'Plugin label'
+  plugin-id: 'Plugin id'
+  hook: 'Generate hook to validate a field'
+  bundle: 'Bundle'
+  field-id: 'Field id'
+questions:
+  class: 'Enter the plugin class name'
+  label: 'Enter the plugin label'
+  plugin-id: 'Enter the plugin id'
+  hook: 'Do you want to generate a hook to validate a field?'
+  bundle: 'Enter entity bundle'
+  field-id: 'Enter field id'
+examples:
+  - description: 'Generate a validation constraint plugin specifying the module name, the class, its label, the plugin id, the entity bundle and the field id'
+    execution: |
+      drupal generate:plugin:validationconstraint  \
+        --module="modulename" \
+        --class="ExampleConstraint" \
+        --label="Example validation constraint" \
+        -plugin-id="example_validation_constraint" \
+        --hook \
+        --field-id="field_exmaple_id" \
+        --bundle="entity_example_bundle" \
+        --no-interaction
+
