@@ -6,8 +6,8 @@ options:
   class: 'Plugin class name'
   label: 'Plugin label'
   plugin-id: 'Plugin ID. NOTE: This corresponds to the CKEditor plugin name. It is the first argument of the CKEDITOR.plugins.add() function in the plugin.js file.'
-  button-name: 'Button name. NOTE: This corresponds to the CKEditor button name. They are the first argument of the editor.ui.addButton() or editor.ui.addRichCombo() functions in the plugin.js file.'
-  button-icon-path: 'Button icon path. This is the path to the icon/image of the button.'
+  buttons: 'CKEditor buttons.'
+  button-properties: 'Enter a new button properties.'
 questions:
   module: 'Enter the module name'
   class: 'Enter the plugin class name'
@@ -15,9 +15,20 @@ questions:
   plugin-id: 'Enter the plugin ID. NOTE: This corresponds to the CKEditor plugin name. It is the first argument of the CKEDITOR.plugins.add() function in the plugin.js file.'
   button-name: 'Enter the button name. NOTE: This corresponds to the CKEditor button name. They are the first argument of the editor.ui.addButton() or editor.ui.addRichCombo() functions in the plugin.js file.'
   button-icon-path: 'Enter the button icon path'
+  button-label: 'Enter the button label'
+  button-add: 'Do you want to add another button?'
 examples:
   - description: 'Generate plugin CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path'
     execution: |
+      drupal generate:plugin:ckeditorbutton  \
+        --module="modulename" \
+        --class="DefaultCKEditorButton" \
+        --label="Default ckeditor button" \
+        --plugin-id="default_ckeditor_button" \
+        --buttons='name":"Default ckeditor button", "label":"Default ckeditor button", "icon":"modules/custom/modulename/js/plugins/default_ckeditor_button/images/icon.png"' \
+        --buttons='name":"My ckeditor button", "label":"My ckeditor button", "icon":"modules/custom/modulename/js/plugins/my_ckeditor_button/images/icon.png"' \
+        --no-interaction
+
       drupal generate:plugin:ckeditorbutton  \
         --module="modulename"  \
         --class="DefaultCKEditorButton"  \
