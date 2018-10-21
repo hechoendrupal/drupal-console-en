@@ -1,4 +1,4 @@
-description: 'Delete an specific entity'
+description: 'Delete a specific entity'
 help: 'The <info>entity:delete</info> command helps you delete entities.'
 arguments:
   entity-definition-id: 'Entity definition id'
