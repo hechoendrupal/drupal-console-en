@@ -1,0 +1,24 @@
+description: 'Generate a plugin rule dataprocessor'
+help: 'The <info>generate:plugin:rules:dataprocessor</info> command helps you generate a new Plugin rule dataprocessor.'
+welcome: 'Welcome to the Drupal Plugin Rules Dataprocessor generator'
+options:
+  module: common.options.module
+  class: 'Plugin class name'
+  label: 'Plugin label'
+  plugin-id: 'Plugin id'
+  category: 'Plugin category'
+  context: 'Plugin context'
+  type: 'Dataprocessor Type (user or node)'
+questions:
+  module: 'Enter the module name'
+  class: 'Enter the plugin class name'
+  label: 'Enter the plugin label'
+  plugin-id: 'Enter the plugin id'
+examples:
+  - description: 'Generate a user rule dataprocessor plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
+    execution: |
+      drupal generate:plugin:rules:dataprocessor  \
+        --module="modulename"  \
+        --class="DefaultDataprocessor"  \
+        --label="Default dataprocessor"  \
+        --plugin-id="default_dataprocessor"  \
