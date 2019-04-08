@@ -1,7 +1,8 @@
 description: 'Export a view in YAML format inside a provided module to reuse in other website.'
 messages:
-    view_exported: 'View exported sucessfully'
+    view-exported: 'View exported sucessfully'
     depencies-included: 'The following module dependencies were included at "%s"'
+    wrong-view: 'The view "%s" does not exist'
 questions:
     view: 'View to be exported'
     optional-config: 'Export view in module as an optional configuration'

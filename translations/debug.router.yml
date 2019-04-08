@@ -1,6 +1,8 @@
 description: 'Displays current routes for the application or information for a particular route'
 arguments:
     route-name: 'Route names'
+options:
+    pattern: 'Route pattern'
 messages:
     name: 'Route name'
     class: 'Class path'
@@ -14,10 +16,12 @@ examples:
       execution: 'drupal rod'
     - description: 'Displays details for the route user.page (/user)'
       execution: 'drupal rod user.page'
-examples:
     - description: 'Shows the routes list on the site'
       execution: |
         drupal debug:router
     - description: 'Display information on the user.login'
       execution: |
         drupal debug:router user.login
+    - description: 'Display information for the routes by pattern (/user/login)'
+      execution: |
+        drupal debug:router --pattern=/user/login
