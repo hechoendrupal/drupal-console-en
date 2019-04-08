@@ -1,5 +1,5 @@
 description: 'Generate a plugin rule action'
-help: 'The <info>generate:plugin:rulesaction</info> command helps you generate a new plugin rule action.'
+help: 'The <info>generate:plugin:rules:action</info> command helps you generate a new plugin rule action.'
 welcome: 'Welcome to the Drupal Plugin Rules Action generator'
 options:
   module: common.options.module
