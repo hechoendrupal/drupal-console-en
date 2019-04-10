@@ -7,6 +7,7 @@ options:
   class: 'Class name'
   interface: 'Interface'
   interface-name: 'Interface name'
+  logger-channel: 'Logger channel'
   services: 'Load services from the container.'
   path-service:  'Path'
 questions:
@@ -15,6 +16,7 @@ questions:
   class: 'Enter the Class name'
   interface: 'Create an interface'
   interface-name: 'Enter the interface name'
+  logger-channel: 'Create a logger channel'
   services: 'Enter your service'
   path-service: 'Enter the path for the services'
 messages:
