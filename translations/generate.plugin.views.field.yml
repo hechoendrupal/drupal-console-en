@@ -3,15 +3,14 @@ help: 'The <info>generate:plugin:views:field</info> command helps you generate a
 welcome: 'Welcome to the Drupal Plugin View Field generator'
 options:
   module: 'The Module name.'
-  class: 'Views plugin field class name'
-  title: 'Views plugin field title'
-  description: 'Views plugin field description'
+  fields: 'Fields definition (class name, title and description).'
 questions:
   module: 'Enter the module name'
   class: 'Enter the views plugin field class name'
   title: 'Enter the views plugin field title'
   description: 'Enter the views plugin field description'
   description_default: 'My awesome custom views field plugin.'
+  field-add: 'Do you want to add another field?'
 messages:
   views-data-already-implemented: 'The hook views data was already implemented in module "%s". Please, merge the code manually'
 examples:
