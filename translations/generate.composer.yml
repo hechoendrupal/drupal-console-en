@@ -1,0 +1,58 @@
+description: 'Generate a composer.json file'
+help: 'The <info>"%s"</info> command helps you generate a new composer.json file'
+welcome: 'Welcome to the Drupal Composer file generator'
+options:
+  module: common.options.module
+  name: 'Package name'
+  type: 'Package type'
+  description: 'Package description'
+  keywords: 'Package keywords'
+  license: 'License'
+  homepage: 'Project homepage'
+  minimum-stability: 'Mininmal stability'
+  authors: 'Authors of the project'
+  support: 'Support channels'
+  required: 'Required packages'
+questions:
+  module: common.questions.module
+  name: 'Enter package name'
+  type: 'Enter package type'
+  description: 'Enter package description'
+  add-keywords: 'Do you want to add package keywords?'
+  keyword: 'Enter a keyword or press <info>enter</info> to continue'
+  license: 'Enter license information'
+  homepage: 'Enter project homepage'
+  minimum-stability: 'Enter mininmal stability (stable, dev, alpha, beta and RC)'
+  add-author: 'Do you want to add authors of the project?'
+  add-another-author: 'Do you want to add another authors of the project?'
+  author-name: 'Enter author name or press <info>enter</info> to skip it'
+  author-email: 'Enter author email or press <info>enter</info> to skip it'
+  author-homepage: 'Enter author homepage or press <info>enter</info> to skip it'
+  author-role: 'Enter author role or press <info>enter</info> to skip it'
+  add-support: 'Do you want to add information about support channels?'
+  add-another-support: 'Do you want to add another information about support channels?'
+  support-channel: 'Enter support channel (email, issues, forum, wiki, irc, source, docs, rss)'
+  support-value: 'Enter support channel value'
+  add-required: 'Do you want to add required packages for the project?'
+  add-another-required: 'Do you want to add another required packages for the project?'
+  required-name: 'Enter required package name'
+  required-version: 'Enter required package version'
+suggestions:
+  description-for-menu: 'A description for the menu entry'
+examples:
+  - description: 'Generate composer file specifying the module machine name, package name, package type, package description, keywords, lincense, homepage, minimum stability, authors, support channels and required packages'
+    execution: |
+      drupal generate:composer \
+        --module="module_name" \
+        --name="drupal/module_name" \
+        --type="drupal-module" \
+        --description="Package description" \
+        --keywords='Drupal' --keywords='logging' \
+        --license="GPL-2.0+" \
+        --homepage="https://www.drupal.org/project/module_name" \
+        --minimum-stability="stable" \
+        --authors='"name":"Author name", "email":"author@email.com", "homepage":"http://website.com", "role":"Developer"' \
+        --support='"channel":"email", "url":"author@email.com"' \
+        --support='"channel":"source", "url":"http://github.com"' \
+        --required='"name":"drupal/views", "version":"^1.0"' \
+        --required='"name":"drupal/token", "version":"^2.0"'
