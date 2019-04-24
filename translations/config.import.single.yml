@@ -4,7 +4,7 @@ options:
     directory: 'The path from where to import file(s).'
 questions:
     file: 'Enter file name or file absolute path to import'
-    directory: 'Enter path from where to import files.'
+    directory: 'Enter absolute path from where to import files.'
 messages:
     missing-file: 'File option is missing.'
     empty-value: 'Value can not be empty'
