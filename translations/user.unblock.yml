@@ -1,0 +1,21 @@
+description: 'Unblock a specific user.'
+help: 'The <info>user:unblock</info> command helps you to unblock a specific user.'
+welcome: 'Welcome to the Drupal user unblock'
+options:
+  user: 'User name/id'
+questions:
+  invalid-user: 'Invalid user name/id "%s", user id must be an integer'
+  user: 'Enter User name/id'
+messages:
+  unblock-successful: 'User "%s" was unblocked.'
+warnings:
+  unblocked-user: 'User "%s" is already unblocked'
+errors:
+  invalid-user: 'Invalid user name/id "%s"'
+examples:
+  - description: 'Unblock user providing the user id'
+    execution: |
+      drupal user:unblock 2
+  - description: 'Unblock user providing the user name'
+    execution: |
+      drupal user:unblock johndoe
