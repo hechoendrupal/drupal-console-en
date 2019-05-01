@@ -2,6 +2,7 @@ description: 'Executes a SQL statement directly as argument'
 arguments:
     query: 'The SQL statement to execute'
     database: 'Database key from settings.php'
+    target: 'Database target from settings.php'
 options:
     quick: 'Do not cache each query result, print each row as it is received'
     debug: 'Prints debugging information and memory and CPU usage statistics when the program exits'

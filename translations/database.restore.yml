@@ -1,6 +1,7 @@
 description: 'Restore structure and contents of a database.'
 arguments:
   database: 'Database key from settings.php'
+  target: 'Database target from settings.php'
 options:
   file: 'The filename for your database backup file. If using a .sql.gz file, the gunzip command needs to be installed.'
 messages:
