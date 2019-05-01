@@ -1,0 +1,20 @@
+description: 'Generate a migrate data parser'
+help: 'The <info>generate:plugin:migrate:dataparser</info> command helps you generate a new migrate data parser.'
+welcome: 'Welcome to the Drupal Migrate Data Parser generator'
+options:
+  module: 'The Module name.'
+  class: 'Plugin class name'
+  plugin-id: 'Plugin id'
+  plugin-title: 'Plugin title'
+questions:
+  class: 'Enter the plugin class name'
+  plugin-id: 'Enter the plugin id'
+  plugin-title: 'Enter the plugin title'
+examples:
+  - description: 'Generate a migration data parser specifying the module name, the class, the plugin id and the plugin title'
+    execution: |
+      drupal generate:plugin:migrate:source  \
+        --module="modulename"  \
+        --class="PluginClassName"  \
+        --plugin-id="plugin_class_name"  \
+        --plugin-title="Data parser"
