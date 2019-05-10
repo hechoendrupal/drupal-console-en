@@ -1,13 +1,20 @@
 description: 'Execute a specific Update N function in a module, or execute all'
+questions:
+  update: 'Do you want to run the specified pending updates?'
+  post-update: 'Do you want to run the specified pending post updates?'
 arguments:
   module: 'Module name'
   update-n: 'Specific Update N function to be executed'
 messages:
   no-module-updates: 'There aren''t updates available for module "%s"'
   executing-update: 'Executing update function "%s" of module "%s"'
+  executing-post-update: 'Executing post update function "%s" of module "%s"'
   module-update-function-not-found: 'Module "%s" doesn''t have a function update for "%s"'
   executing-required-previous-updates: 'Executing required previous updates'
   no-pending-updates: 'There aren''t updates available'
+  no-pending-post-updates: 'There aren''t post updates available'
+  pending-post-updates: 'There are the following post updates available:'
+  pending-updates: 'There are the following updates available:'
 examples:
   - description: 'Execute all updates'
     execution: |
