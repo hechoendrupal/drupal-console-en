@@ -4,7 +4,7 @@ welcome: 'Welcome to the Drupal Plugin Block generator'
 options:
   module: 'The Module name.'
   class: 'Plugin class name'
-  label: 'Plugin label'
+  plugin-label: 'Plugin label'
   plugin-id: 'Plugin id'
   inputs: 'Create inputs in a form.'
   services: 'Load services from the container.'
@@ -12,7 +12,7 @@ options:
 questions:
   module: 'Enter the module name'
   class: 'Enter the plugin class name'
-  label: 'Enter the plugin label'
+  plugin-label: 'Enter the plugin label'
   plugin-id: 'Enter the plugin id'
   services: 'Enter your service'
   theme-region: 'Enter the theme region to render the Plugin Block.'
