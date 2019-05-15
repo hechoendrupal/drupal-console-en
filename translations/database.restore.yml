@@ -3,7 +3,7 @@ arguments:
   database: 'Database key from settings.php'
   target: 'Database target from settings.php'
 options:
-  file: 'The filename for your database backup file. If using a .sql.gz file, the gunzip command needs to be installed.'
+  file: 'The filename for your database backup file (absolute path) . If using a .sql.gz file, the gunzip command needs to be installed.'
 messages:
     success: 'Database imported from:'
     no-file: 'Missing file option'
