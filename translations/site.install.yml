@@ -2,6 +2,7 @@ description: 'Install a Drupal project'
 arguments:
   profile: 'Drupal Profile to be installed'
   langcode: 'Drupal language'
+  db-url: 'Use Database url to the installation instead of using the options. (Sqlite is not supported)'
   db-type: 'Drupal Database type to be used in install'
   db-file: 'Drupal Database file to be used in install'
   site-name: 'Drupal site name'
@@ -30,6 +31,8 @@ messages:
   sites-backup: 'The sites.php file has temporarily been renamed to backup.sites.php while Drupal installs.'
   sites-restore: 'The backup of sites.php has been been restored to sites.php.'
   invalid-multisite: 'Invalid multisite, please create multisite using command drupal multisite:new "%s" "%s"'
+  invalid-db-url: 'Invalid database url, please provide a valid url like "mysql://dbUser:dbPass@dbHost/dbName"'
+  invalid-url-driver: 'Invalid database type, the Sqlite driver is not supported'
 examples:
   - description: 'Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings'
     execution: |
@@ -41,6 +44,15 @@ examples:
         --db-user="u53rn4m3"  \
         --db-pass="dbp455"  \
         --db-port="3306"  \
+        --site-name="Drupal 8"  \
+        --site-mail="admin@example.com"  \
+        --account-name="admin"  \
+        --account-mail="admin@example.com"  \
+        --account-pass="p455w0rd"
+  - description: 'Install a drupal project using a mysql url'
+    execution: |
+      drupal site:install  standard  mysql://dbUser:dbPass@dbHost/dbName \
+        --langcode="en"  \
         --site-name="Drupal 8"  \
         --site-mail="admin@example.com"  \
         --account-name="admin"  \
