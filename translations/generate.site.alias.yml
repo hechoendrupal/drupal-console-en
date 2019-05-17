@@ -8,7 +8,8 @@ options:
   host: 'The ip/domain name of the remote system. Not required on local sites.'
   port: 'The port to use when connecting via ssh.'
   user: 'The username to use when connecting via ssh.'
-  extra-options: 'Used only when the target requires extra options, such as alternative authentication method and/or alternative identity file.'
+  drupal-console-binary: 'The name of your drupal console binary. By default is "drupal"'
+  extra-options: 'Used only when the target requires extra options, such as tty option and/or alternative authentication method and/or alternative identity file.'
   site-uri: 'Drupal uri (for multi-sites).'
   directory: 'Directory to store the generated site alias.'
   site: 'Use local site as destination.'
@@ -20,6 +21,22 @@ questions:
   host: 'Enter the ip/domain name of the remote system.'
   port: 'Enter the port to use when connecting via ssh.'
   user: 'Enter the username to use when connecting via ssh.'
+  drupal-console-binary: 'Enter the name of your drupal console binary'
   extra-options: 'Select or enter a valid extra option.'
   site-uri: 'Enter the Drupal uri (for multi-sites).'
   directory: 'Select the directory to store the generated site alias.'
+examples:
+  - description: 'Generate site alias to connect with ssh using tty as extra-option'
+    execution: |
+      drupal generate:site:alias  \
+        --name="demo"  \
+        --environment="dev"  \
+        --type="ssh" \
+        --composer-root="/path/to/remote/project" \
+        --site-uri="default" \
+        --host="hostName/domain" \
+        --user="userName" \
+        --port="port" \
+        --drupal-console-binary="drupal" \
+        --extra-options="-tt" \
+        --directory="/Users/hjuarez/drupalSq/console/"
