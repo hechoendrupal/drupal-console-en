@@ -7,6 +7,7 @@ options:
   entity-name: 'The content entity name'
   label: 'The label'
   has-bundles: 'Entity has bundles'
+  has-forms: 'Entity has forms'
   base-path: 'The base-path for the content entity routes'
   is-translatable: 'Content entity translatable'
 questions:
@@ -15,6 +16,7 @@ questions:
   entity-name: 'Enter the machine name of your new content entity'
   label: 'Enter the label of your new content entity'
   has-bundles: 'Do you want this (content) entity to have bundles?'
+  has-forms: 'Do you want this (content) entity to have forms?'
   base-path: 'Enter the base-path for the content entity routes'
   is-translatable: 'Is your entity translatable?'
   revisionable: 'Is your entity revisionable?'
@@ -37,3 +39,4 @@ examples:
         --label="Default entity"  \
         --is-translatable  \
         --revisionable
+        --has-forms
