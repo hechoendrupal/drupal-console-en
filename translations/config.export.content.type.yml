@@ -7,12 +7,14 @@ questions:
     optional-config: 'Export content type in module as an optional configuration'
     all: 'All content types'
     remove-config-hash: 'Content type to be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 messages:
     content-type-exported: 'Exporting content type'
 options:
     optional-config: 'Export content type as an optional YAML configuration in your module'
     remove-uuid: 'If set, the configuration will be exported without uuid key.'
     remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 examples:
     - description: 'Provide a content type  and module name'
       execution: |
@@ -22,4 +24,6 @@ examples:
       execution: |
         drupal config:export:content:type page \
           --module="demo" \
-          --optional-config
+          --optional-config \
+          --remove-uuid \
+          --remove-config-hash

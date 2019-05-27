@@ -3,17 +3,20 @@ arguments:
     entity-type: 'An entity type (node_type, taxonomy_vocabulary, paragraphs_type) to be exported'
     bundle: 'A bundle to be exported'
 questions:
+    all: 'All'
     entity-type: 'Select entity type'
     bundle: 'A bundle to be exported'
     remove-uuid: 'The bundle to be exported without uuid key.'
     optional-config: 'Export the bundle in the module as an optional configuration'
     remove-config-hash: 'The bundle to be exported without the default site hash key.'
+    include-module-dependencies: 'Include bundle module dependencies in module info YAML file'
 messages:
-    content-type-exported: 'Exporting bundle'
+    bundle-exported: 'Exporting bundle %s'
 options:
     optional-config: 'Export bundle as an optional YAML configuration in your module'
     remove-uuid: 'If set, the configuration will be exported without uuid key.'
     remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    include-module-dependencies: 'Include bundle module dependencies in module info YAML file'
 examples:
     - description: 'Provide an entity type, a bundle and a module name'
       execution: |
@@ -23,5 +26,7 @@ examples:
       execution: |
         drupal config:export:entity node_type page \
           --module="demo" \
-          --optional-config 
+          --optional-config \
+          --remove-uuid \
+          --remove-config-hash
 

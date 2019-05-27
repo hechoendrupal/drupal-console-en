@@ -7,11 +7,15 @@ questions:
     view: 'View to be exported'
     optional-config: 'Export view in module as an optional configuration'
     include-module-dependencies: 'Include view module dependencies in module info YAML file'
+    remove-uuid: 'The view to be exported without uuid key.'
+    remove-config-hash: 'The view to be exported without the default site hash key.'
 arguments:
     view-id: 'View ID'
 options:
     optional-config: 'Export view as an optional YAML configuration in your module'
-    include-module-dependencies: 'Include module dependencies in module info YAML file'
+    include-module-dependencies: 'Include view module dependencies in module info YAML file'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
 examples:
     - description: 'Provide a view id'
       execution: drupal config:export:view viewid
@@ -20,5 +24,7 @@ examples:
         drupal config:export:view viewid \
           --module="modulename" \
           --optional-config \
-          --include-module-dependencies
+          --include-module-dependencies \
+          --remove-uuid \
+          --remove-config-hash
 
