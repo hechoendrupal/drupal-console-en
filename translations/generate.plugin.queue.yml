@@ -1,0 +1,25 @@
+description: 'Drupal Console Queueworker generator.'
+help: 'The <info>generate:plugin:queue</info> command helps you generate a new queue worker plugin.'
+welcome: 'Welcome to the Drupal Queue Worker Plugin generator'
+options:
+  module: 'The module name'
+  class: 'QueueWorker file name'
+  plugin-id: 'Plugin QueueWorker id'
+  cron-time: 'Cron time'
+  label: 'Queue description'
+questions:
+  class: 'Enter the QueueWorker class name'
+  plugin-id: 'Enter the Plugin QueueWorker id'
+  cron-time: 'Enter the cron time to execute you queue'
+  label: 'Enter the Queue description'
+examples:
+  - description: 'Generate a queue worker plugin specifying the module name, the class and its plugin id'
+    execution: |
+      drupal generate:plugin:queue  \
+        --module="modulename"  \
+        --class="PluginClassName"  \
+        --plugin-id="plugin_class_name"  \
+        --cron-time="30"  \
+        --label="Example QueueWorker"
+messages:
+    success: 'The Queueworker was generated successfully.'
