@@ -10,7 +10,7 @@ messages:
 examples:
     - description: 'List all the events that could be debugged'
       execution: |
-        drupal debug:evet
+        drupal debug:event
     - description: 'Show the information for the kernel.request event'
       execution: |
         drupal debug:event kernel.request
