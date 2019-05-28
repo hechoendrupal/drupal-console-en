@@ -15,3 +15,18 @@ questions:
   learning: 'Shows information for learning purposes?'
   generate-inline: 'Show inline representation of the executed command?'
   generate-chain: 'Show chain representation of the executed command?'
+  statistics: 'Allow to collect and send this information to drupalConsole server?'
+messages:
+  statistics: |
+      Help us improve the Drupal Console project, providing information about how you use the application.
+      The colleted information at "%s", would be:
+
+      - Used language
+      - Executed command
+      - Generated lines of code
+
+      You could read about our privacy policy at http://drupalconsole.com/privacy.
+  statistics-disable: |
+      You can stop sending information using the following command:
+
+      drupal settings:set statistics.enabled false

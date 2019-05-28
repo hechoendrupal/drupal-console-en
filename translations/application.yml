@@ -53,6 +53,16 @@ errors:
     invalid-command: 'Command "%s", is not a valid command name.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
     drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: |
+      The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.
+      If you want to enable it again, use the following command:
+
+      drupal settings:set statistics.enabled true
+    statistics-url-failed: |
+      The Drupal console failed to send statistics.
+      You must configure it in the global config.yml, use the following command and choose your preference:
+
+      drupal init
 site:
     messages:
         path: 'Site path'
