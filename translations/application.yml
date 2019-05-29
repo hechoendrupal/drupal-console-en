@@ -43,7 +43,7 @@ messages:
                 <info>source "$HOME/.console/console.rc" 2>/dev/null</info>
 
                 Fish: Create a symbolic link
-                <info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>
+                <info>mkdir -p ~/.config/fish/completions/ && ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>
     version: '<info>"%s"</info> version <comment>"%s"</comment>'
     disable:
       command:
@@ -57,12 +57,12 @@ errors:
       The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.
       If you want to enable it again, use the following command:
 
-      drupal settings:set statistics.enabled true
+      <info>drupal settings:set statistics.enabled true</info>
     statistics-url-failed: |
       The Drupal console failed to send statistics.
       You must configure it in the global config.yml, use the following command and choose your preference:
 
-      drupal init
+      <info>drupal init</info>
 site:
     messages:
         path: 'Site path'
