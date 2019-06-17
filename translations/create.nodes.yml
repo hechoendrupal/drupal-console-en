@@ -7,6 +7,7 @@ options:
     limit: 'How many nodes would you like to create'
     title-words: 'Maximum number of words in node titles'
     time-range: 'How far back in time should the nodes be dated'
+    revision: 'Create revisions'
 questions:
     content-type: 'Select content type(s) to be used on node creation'
     limit: 'Enter how many nodes would you like to generate'
@@ -19,6 +20,7 @@ questions:
         - '1 week ago'
         - '1 month ago'
         - '1 year ago'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'Node Id'
     content-type: 'Content type'
@@ -36,5 +38,6 @@ examples:
           --limit="5" \
           --title-words="5" \
           --time-range="1" \
+          --revision \
           --language="und"
 

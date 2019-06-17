@@ -1,7 +1,6 @@
 description: 'Export a single configuration or a list of configurations as yml file(s).'
-arguments:
-    name: 'Configuration name.'
 options:
+    name: 'Configuration name.'
     include-dependencies: 'Export dependencies of the configuration as well.'
     simple-configuration: 'Simple configuration'
     optional: 'Export config as an optional YAML configuration in your module'
