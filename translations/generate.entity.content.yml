@@ -8,6 +8,7 @@ options:
   label: 'The label'
   has-bundles: 'Entity has bundles'
   has-forms: 'Entity has forms'
+  has-owner: 'Entity has owner'
   base-path: 'The base-path for the content entity routes'
   is-translatable: 'Content entity translatable'
 questions:
@@ -17,6 +18,7 @@ questions:
   label: 'Enter the label of your new content entity'
   has-bundles: 'Do you want this (content) entity to have bundles?'
   has-forms: 'Do you want this (content) entity to have forms?'
+  has-owner: 'Do you want this (content) entity to have an owner?'
   base-path: 'Enter the base-path for the content entity routes'
   is-translatable: 'Is your entity translatable?'
   revisionable: 'Is your entity revisionable?'
