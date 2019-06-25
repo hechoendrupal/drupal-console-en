@@ -1,0 +1,16 @@
+description: 'Runs PHP code'
+help: 'Execute a PHP code'
+options:
+  file: 'Path to the file'
+  code: 'Code to execute'
+  show-code: 'Show code after execute'
+errors:
+  invalid-options: 'You need to provide the file option'
+  invalid-file: 'The file "%s" does not exist.'
+examples:
+  - description: 'Run using a file.'
+    execution: 'drupal snippet --file=/path/to/file'
+  - description: 'Passing code as option.'
+    execution: 'drupal snippet --code=codeToExecute'
+  - description: 'Show code executed'
+    execution: 'drupal snippet --show-code --file=/path/to/file'
