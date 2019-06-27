@@ -1,0 +1,15 @@
+description: 'Displays current updates available from the composer file'
+options:
+    only-drupal: Show only drupal (modules/themes) updates
+messages:
+    description: 'Description'
+    current-version: 'Version'
+    latest-version: 'Latest'
+    name: 'Name'
+    composer-list: 'Composer with pending updates'
+examples:
+    - description: 'List of pending updates from composer'
+      execution: |
+        drupal debug:update:composer
+
+
