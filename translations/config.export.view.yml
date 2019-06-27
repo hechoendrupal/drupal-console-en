@@ -1,4 +1,4 @@
-description: 'Export a view in YAML format inside a provided module to reuse in other website.'
+description: 'Export a view in YAML format inside a provided module to reuse in another website.'
 messages:
     view-exported: 'View exported sucessfully'
     depencies-included: 'The following module dependencies were included at "%s"'
@@ -17,9 +17,9 @@ options:
     remove-uuid: 'If set, the configuration will be exported without uuid key.'
     remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
 examples:
-    - description: 'Provide a view id'
+    - description: 'Perform a simple export.'
       execution: drupal config:export:view viewid
-    - description: 'You can provide the interactive values like parameter.'
+    - description: 'Export as optional config for the provided module.'
       execution: |
         drupal config:export:view viewid \
           --module="modulename" \
@@ -27,4 +27,9 @@ examples:
           --include-module-dependencies \
           --remove-uuid \
           --remove-config-hash
-
+    - description: "Export as config for the provided module, updating the module's info.yml with any module dependencies from the view."
+      execution: |
+        drupal config:export:view viewid \
+          --module="modulename" \
+          --optional-config \
+          --include-module-dependencies

@@ -16,11 +16,11 @@ options:
     remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
     include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 examples:
-    - description: 'Provide a content type  and module name'
+    - description: 'Provide a content type and module name.'
       execution: |
         drupal config:export:content:type page \
           --module="demo"
-    - description: 'If you want export content type provide the optional config'
+    - description: 'Export content type as an optional config for the provided module.'
       execution: |
         drupal config:export:content:type page \
           --module="demo" \
