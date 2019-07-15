@@ -10,6 +10,7 @@ options:
   package: 'Theme package'
   composer: 'Add a composer.json file'
   base-theme: 'Base theme (i.e. classy, stable)'
+  base-theme-regions: 'Add the default regions of the chosen base theme'
   global-library: 'Global styling library name'
   libraries: 'Libraries'
   regions: Regions
