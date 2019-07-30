@@ -9,6 +9,7 @@ options:
   inputs: 'Create inputs in a form.'
   services: 'Load services from the container.'
   theme-region: 'Theme region to render Plugin Block'
+  twigtemplate: 'Generate theme template'
 questions:
   module: 'Enter the module name'
   class: 'Enter the plugin class name'
@@ -21,6 +22,7 @@ questions:
   description: 'Description'
   default-value: 'Default value'
   weight: 'Weight for input item'
+  twigtemplate: 'Do you want to generate a themeable template?'
 messages:
   inputs: "\nYou can add input fields to create special configurations in the block.\nThis is optional, press <info>enter</info> to <info>continue</info>"
   invalid-theme-region: 'Region "%s" is invalid'

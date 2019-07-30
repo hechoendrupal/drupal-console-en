@@ -25,4 +25,4 @@ messages:
 examples:
   - description: 'Set up files for a multisite install specifying destination path and uri'
     execution: |
-      drupal multisite:new  vendor/newsite http://mysite.example.com
+      drupal multisite:new  newsite http://newsite.com
