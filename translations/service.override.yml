@@ -1,0 +1,27 @@
+description: 'Override services value.'
+questions:
+    name: 'Enter service name'
+    key: 'Enter the service key'
+    value: 'Enter the "%s" service value'
+arguments:
+    name: 'Service name'
+options:
+    key: 'Key'
+    value: 'Value'
+messages:
+    service-name: 'Service name'
+    service-key: 'Service key'
+    original: 'Original Value'
+    updated: 'Override Value'
+    invalid-name: 'Service object "%s" does not exist.'
+    invalid-config-file: 'Service file does not exist.'
+examples:
+    - description: "Override options from twig.config service"
+      execution: |
+        drupal service:override twig.config \
+          --key='debug' \
+          --key='cache' \
+          --value='true' \
+          --value='false' \
+          --no-interaction
+
