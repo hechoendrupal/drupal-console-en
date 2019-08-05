@@ -13,12 +13,8 @@ messages:
     uninstalled: Uninstalled
     version: Version
     schema-version: 'Schema version'
-    total-downloads: 'Total installs'
-    total-monthly: 'Monthly installs'
-    total-daily: 'Daily installs'
-    no-results: 'Module "%s" was not found in the repository'
 examples:
     - description: 'Display all installed modules'
-      execution: 'drupal mod --status=installed'
-    - description: 'Display all installed and no core modules'
-      execution: 'drupal mod --status=installed --type=no-core'
+      execution: 'drupal debug:module --status=installed'
+    - description: 'Display all installed and no core modules with alias'
+      execution: 'drupal dm --status=installed --type=no-core'
