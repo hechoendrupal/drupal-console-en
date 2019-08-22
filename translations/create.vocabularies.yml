@@ -18,4 +18,3 @@ examples:
         drupal create:vocabularies \
           --limit="5" \
           --name-words="5"
-    

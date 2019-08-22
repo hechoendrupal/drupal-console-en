@@ -40,4 +40,3 @@ examples:
           --time-range="1" \
           --revision \
           --language="und"
-

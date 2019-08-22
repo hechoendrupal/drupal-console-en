@@ -29,4 +29,3 @@ examples:
           --optional-config \
           --remove-uuid \
           --remove-config-hash
-

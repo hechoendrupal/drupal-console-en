@@ -58,4 +58,3 @@ examples:
         --account-name="admin"  \
         --account-mail="admin@example.com"  \
         --account-pass="p455w0rd"
-

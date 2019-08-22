@@ -15,4 +15,3 @@ messages:
 examples:
     - description: 'Provide a config directory'
       execution: drupal config:diff ../config/path
-

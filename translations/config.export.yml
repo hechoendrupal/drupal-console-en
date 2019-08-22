@@ -21,4 +21,3 @@ examples:
           --tar \
           --remove-uuid \
           --remove-config-hash
-

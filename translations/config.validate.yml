@@ -7,4 +7,3 @@ messages:
 examples:
     - description: 'Provide the configuration name.'
       execution: 'drupal config:validate configuration.name'
-

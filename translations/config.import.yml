@@ -21,4 +21,3 @@ examples:
       execution: |
         drupal config:import  \
           --directory=/path/to/config/dir
-

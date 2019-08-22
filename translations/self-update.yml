@@ -17,4 +17,3 @@ messages:
    Or you can switch to a Phar install recommended
    composer global remove drupal/console
    curl https://drupalconsole.com/installer -L -o drupal.phar
-

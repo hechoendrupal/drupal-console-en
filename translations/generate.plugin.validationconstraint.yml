@@ -27,4 +27,3 @@ examples:
         --field-id="field_exmaple_id" \
         --bundle="entity_example_bundle" \
         --no-interaction
-

@@ -16,4 +16,3 @@ examples:
     - description: 'Provide the number of roles to create'
       execution: |
         drupal create:roles
-

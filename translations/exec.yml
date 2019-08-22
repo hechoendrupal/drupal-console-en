@@ -10,4 +10,3 @@ messages:
   binary-not-found: 'Unable to find the binary "%s" to execute.'
   working-directory: 'Working directory'
   executing-command: 'Executing command'
-
