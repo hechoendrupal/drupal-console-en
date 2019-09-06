@@ -11,6 +11,7 @@ options:
   has-owner: 'Entity has owner'
   base-path: 'The base-path for the content entity routes'
   is-translatable: 'Content entity translatable'
+  has-bundle-permissions: 'Permissions on bundle level'
 questions:
   module: 'Enter the module name'
   entity-class: 'Enter the class of your new content entity'
@@ -22,6 +23,7 @@ questions:
   base-path: 'Enter the base-path for the content entity routes'
   is-translatable: 'Is your entity translatable?'
   revisionable: 'Is your entity revisionable?'
+  has-bundle-permissions: 'Do you want this entity to have "per bundle" permissions?'
 examples:
   - description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'
     execution: |
