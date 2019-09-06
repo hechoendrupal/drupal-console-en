@@ -3,7 +3,6 @@
     "description": "Drupal Console English Language",
     "keywords": ["Drupal", "Console", "Development", "Symfony"],
     "homepage": "http://drupalconsole.com/",
-    "type": "drupal-console-language",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
