@@ -7,6 +7,7 @@ options:
   host: 'The database host address'
   port: 'The database host port'
   driver: 'The database driver'
+  default: 'Set the database as the default one'
 questions:
   database: 'Enter the database name'
   username: 'Enter the username to access the database'
