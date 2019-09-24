@@ -19,6 +19,10 @@ messages:
   theme-default-success: 'The "%s" theme has been installed successfully as default theme'
   disabled-themes: 'Only uninstalled themes will be listed in autocomplete'
   invalid-theme-default: 'Option default is only valid for one theme'
+  getting-releases: 'Getting releases for theme "%s"'
+  select-release: 'Please select your favorite release'
+  downloading: 'Downloading theme "%s" release "%s"'
+  downloaded: 'Module "%s" version "%s" was downloaded successfully at "%s"'
 examples:
   - description: 'Install theme specifying the name'
     execution: |
