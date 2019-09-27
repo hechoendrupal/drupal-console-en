@@ -1,0 +1,26 @@
+description: 'Generate a block content type'
+help: 'The <info>generate:block:type</info> command helps you generate a new block content type.'
+welcome: 'Welcome to the Drupal Block Type generator'
+options:
+  module: 'The Module name.'
+  class: 'Block type class name'
+  block-label: 'Block content type label'
+  block-description: 'Block content type description'
+  block-id: 'Block id'
+questions:
+  module: 'Enter the module name'
+  class: 'Enter the block class name'
+  block-label: 'Enter the block label'
+  block-description: 'Enter the block description'
+  block-id: 'Enter the block content type id'
+  description: 'Description'
+  default-value: 'Default value'
+messages:  
+examples:
+  - description: 'Generate a block content type specifying the module name'
+    execution: |
+      drupal generate:block:type  \
+        --module="modulename"  \
+        --class="DefaultBlock"  \
+        --label="Default block"  \
+        --block-id="default_block"
