@@ -8,9 +8,11 @@ options:
     tags: 'Set service tags from the container.'
     inputs: 'Create inputs in a form.'
     permissions: 'Create permissions.'
+    theme: 'The Theme name'
 questions:
     class: 'Enter the Class name'
     module: 'Enter the module name'
+    theme: 'Enter the theme name'
     extension: 'Enter the extension name'
     extension-type: 'Enter the extension type'
     confirm: 'Do you want proceed with the operation?'
@@ -55,3 +57,4 @@ messages:
     move-phar: 'Accessing console from anywhere on your system'
     quick-start: 'Download, install and serve Drupal 8'
     available-field-types: 'Available types: <comment>%s</comment>'
+    theme: 'The %s theme is not instaled'

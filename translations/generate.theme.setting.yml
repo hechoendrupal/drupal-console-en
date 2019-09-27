@@ -1,0 +1,30 @@
+description: 'Generate a setting configuration theme'
+help: 'The <info>generate:theme:setting</info> command helps you generates a config YML file.'
+welcome: 'Welcome to the Drupal theme setting generator'
+options:
+  theme: 'The theme name'
+  theme-path: 'The path of the theme'
+  favicon: 'Favicon supplied by the theme'
+  comment-user-picture: 'User pictures in comments'
+  comment-user-verification: 'User verification status in comments'
+  node-user-picture: 'User pictures in posts'
+  logo: 'Logo supplied by the theme'
+  merge-existing-file: 'Merge the configuration with the existing file'
+questions:
+  theme: 'Enter the new theme name'
+  theme-path: 'Add the path of the theme'
+  favicon: 'Use the favicon supplied by the theme'
+  comment-user-picture: 'Use the user pictures in comments'
+  comment-user-verification: 'Use the user verification status in comments'
+  node-user-picture: 'Use the user pictures in posts'
+  logo: 'Use the logo supplied by the theme'
+  merge-existing-file: 'Merge the configuration with the existing file'
+suggestions:
+  my-awesome-theme: 'My Awesome theme'
+  other: 'Other'
+warnings:
+  module-unavailable: 'Warning The following modules are not available in your local environment "%s"'
+errors:
+  theme: 'The name theme "%s" is invalid.'
+  directory-notexists: 'The target directory "%s" not exists.'
+examples:
