@@ -1,0 +1,29 @@
+description: 'Generate a custom block plugin derivative'
+help: 'The <info>generate:plugin:derivative</info> command helps you generate a new custom plugin block derivative'
+welcome: 'Welcome to the Drupal Plugin Block Derivative generator'
+options:
+  module: 'The Module name.'
+  class: 'The Class name.'
+  block_label: 'The Block label'
+  block_description: 'The Block description'
+  block_id: 'The Block id'
+questions:
+  module: 'Enter the module name'
+  class: 'Enter the plugin block derivative class name'
+  block_label: 'Enter the Block label'
+  block_description: 'Enter the Block description'
+  block_id: 'Enter the Block id'
+suggestions:
+  class: 'CustomBlockDerivative'
+  block_description: 'My custom block derivative.'
+  block_label: 'Custom block derivative'
+  block_id: 'custom_block_derivative'
+examples:
+  - description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'
+    execution: |
+      drupal generate:plugin:views:field  \
+        --module="modulename"  \
+        --class="CustomBlockDerivative"  \
+        --block-label="Custom block derivative"  \
+        --block-description="My custom block derivative." \
+        --block-id="custom_block_derivative"
