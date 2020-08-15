@@ -11,7 +11,6 @@ questions:
   temp: 'Enter temporary file path'
   chain: 'Copy chain files examples'
   sites: 'Copy site alias files examples'
-  temp: 'Enter temporary file path'
   learning: 'Shows information for learning purposes?'
   generate-inline: 'Show inline representation of the executed command?'
   generate-chain: 'Show chain representation of the executed command?'
